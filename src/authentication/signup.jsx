@@ -505,48 +505,62 @@ const SignUp = ({ backendUrl }) => {
     return true;
   };
 
-  // Handle close popup and redirect to login
-  const downloadRecoveryFile = () => {
-    const siteName = "AnyVoice";
-
-    const fileContent = `=== ${siteName} - Recovery Code ===
-    
-  Username: ${tempUsername}
-  Recovery Code: ${recoveryCode}
-
-  Warning: Keep this code in a safe place!
-  This code is required to recover your account if you forget your password.
-  Date: ${new Date().toLocaleString()}
-
-  --- Please do not share this code with anyone ---`;
-
-    const blob = new Blob([fileContent], {
-      type: "text/plain;charset=utf-8",
-    });
-
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-
-    a.href = url;
-    a.download = `${siteName.toLowerCase()}_recovery_code_${tempUsername}.txt`;
-
-    document.body.appendChild(a);
-    a.click();
-
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  };
-
-  // Handle close popup and redirect to login
+  // Handle close popup, download file AND copy to clipboard
   const handleClosePopup = () => {
-    // 1. FIRST trigger download (must be direct user action)
+    // Эҷоди файл барои боргирӣ
+    const downloadRecoveryFile = () => {
+      const siteName = "AnyVoice";
+      const fileContent = `=== ${siteName} - Recovery Code ===
+
+Username: ${tempUsername}
+Recovery Code: ${recoveryCode}
+
+Warning: Keep this code in a safe place!
+This code is required to recover your account if you forget your password.
+Date: ${new Date().toLocaleString()}
+
+--- Please do not share this code with anyone ---
+`;
+
+      const blob = new Blob([fileContent], { type: 'text/plain;charset=utf-8' });
+      const link = document.createElement('a');
+      const url = URL.createObjectURL(blob);
+      link.href = url;
+      link.download = `${siteName.toLowerCase()}_recovery_code_${tempUsername}.txt`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    };
+
+    // Нусхабардорӣ ба Clipboard
+    const copyToClipboard = async () => {
+      const clipboardContent = `Recovery Code for AnyVoice: ${recoveryCode}`;
+      
+      try {
+        await navigator.clipboard.writeText(clipboardContent);
+        console.log('Recovery code copied to clipboard');
+      } catch (err) {
+        console.error('Failed to copy to clipboard:', err);
+        // Усули альтернативӣ барои браузерҳои кӯҳна
+        const textarea = document.createElement('textarea');
+        textarea.value = clipboardContent;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+      }
+    };
+
+    // Боргирии файл ва нусхабардорӣ ба Clipboard
     downloadRecoveryFile();
-
-    // 2. THEN update UI immediately (no delay)
-    setShowRecoveryPopup(false);
-
-    // 3. Navigate
-    navigate("/login");
+    copyToClipboard();
+    
+    // Пас аз боргирӣ ба саҳифаи логин равона шавед
+    setTimeout(() => {
+      setShowRecoveryPopup(false);
+      navigate('/login');
+    }, 500);
   };
 
   // Handle copy recovery code
@@ -836,7 +850,7 @@ const SignUp = ({ backendUrl }) => {
               )}
             </div>
 
-            {/* Terms and Conditions Checkbox */}
+            {/* Terms and Conditions Checkbox - фаъол нест то он даме ки корбар клик кунад */}
             <div className="verification-checkbox-container">
               <label className="verification-checkbox-label">
                 <input
@@ -846,17 +860,18 @@ const SignUp = ({ backendUrl }) => {
                   onChange={(e) => setTermsAccepted(e.target.checked)}
                   disabled={loading}
                 />
-
                 <span className="checkmark"></span>
-
                 <span className="checkbox-text">
-                  {t('signup.terms.agree')}{" "}
-
-                  <a
-                    href="https://www.anyvoice.world/privacy"
-                    target="_blank"
+                  {t('signup.terms.agree')}{' '}
+                  <a 
+                    href="/privacy" 
+                    target="_blank" 
                     rel="noopener noreferrer"
                     className="terms-link"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.open('/privacy', '_blank', 'noopener,noreferrer');
+                    }}
                   >
                     {t('signup.terms.link')}
                   </a>
