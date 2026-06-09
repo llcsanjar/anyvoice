@@ -1,0 +1,1961 @@
+{
+  "login": {
+    "username": "نام کاربری",
+    "usernamePlaceholder": "نام کاربری را وارد کنید",
+    "password": "رمز عبور",
+    "passwordPlaceholder": "رمز عبور را وارد کنید",
+    "loginButton": "ورود",
+    "loggingIn": "در حال ورود...",
+    "forgotPassword": "رمز عبور را فراموش کرده‌اید؟",
+    "noAccount": "حساب کاربری ندارید؟",
+    "signup": "ثبت‌نام",
+    "errors": {
+      "usernameRequired": "لطفاً نام کاربری را وارد کنید!",
+      "passwordRequired": "لطفاً رمز عبور را وارد کنید!",
+      "userNotFound": "کاربر یافت نشد",
+      "incorrectPassword": "رمز عبور نادرست است",
+      "passwordDecryptionFailed": "خطا در باز کردن رمز. دوباره تلاش کنید.",
+      "unknownError": "خطای ناشناخته رخ داد. دوباره تلاش کنید.",
+      "connectionError": "⛔️ ارتباط با سرور قطع شد! اتصال اینترنت خود را بررسی کنید.",
+      "tooManyAttempts": "تلاش‌های زیاد. بعداً تلاش کنید"
+    }
+  },
+
+  "signup": {
+    "pageTitle": "ثبت‌نام",
+    "profileImage": "عکس پروفایل",
+    "username": "نام کاربری",
+    "usernamePlaceholder": "نام کاربری را وارد کنید",
+    "password": "رمز عبور",
+    "passwordPlaceholder": "رمز عبور را وارد کنید",
+    "confirmPasswordPlaceholder": "رمز عبور را تأیید کنید",
+    "displayName": "نام نمایشی",
+    "displayNamePlaceholder": "نام نمایشی را وارد کنید (اختیاری)",
+    "registerButton": "ثبت‌نام",
+    "registering": "در حال ثبت‌نام...",
+    "alreadyHaveAccount": "حساب کاربری دارید؟",
+    "loginLink": "ورود",
+    "randomAccountGenerated": "اطلاعات تصادفی حساب کاربری برای شما تولید شد!",
+    "showPassword": "نمایش رمز عبور",
+    "hidePassword": "مخفی کردن رمز عبور",
+    "regenerate": "تولید اطلاعات جدید",
+    "recovery": {
+      "title": "رمز بازیابی حساب کاربری",
+      "warning": "مهم: این رمز را در جای امن ذخیره کنید!",
+      "info": "این رمز برای بازیابی حساب در صورت فراموشی رمز عبور لازم است.",
+      "copy": "کپی رمز",
+      "codeCopied": "رمز بازیابی در کلیپ‌بورد کپی شد!",
+      "securityNote": "به دلایل امنیتی، این رمز دیگر نمایش داده نمی‌شود.",
+      "instruction": "لطفاً این رمز را ذخیره کنید. برای بازیابی حساب به آن نیاز خواهید داشت.",
+      "confirm": "رمز را ذخیره کرده‌ام"
+    },
+    "errors": {
+      "usernameRequired": "* نام کاربری نمی‌تواند خالی باشد!",
+      "usernameLength": "* نام کاربری باید بین 5 تا 15 کاراکتر باشد!",
+      "usernameLetter": "* نام کاربری باید حداقل یک حرف داشته باشد!",
+      "usernameStart": "* نام کاربری باید با حرف، عدد یا _ شروع شود!",
+      "usernameDot": "* نام کاربری نمی‌تواند با نقطه شروع یا پایان یابد!",
+      "usernameDoubleDot": "* نام کاربری نمی‌تواند دو نقطه پشت سر هم داشته باشد!",
+      "usernameChars": "* نام کاربری فقط می‌تواند شامل حروف، اعداد، _ و . باشد!",
+      "passwordRequired": "* رمز عبور نمی‌تواند خالی باشد!",
+      "passwordLength": "* رمز عبور باید بین 8 تا 30 کاراکتر باشد!",
+      "confirmPasswordRequired": "* لطفاً رمز عبور را تأیید کنید!",
+      "passwordMismatch": "* رمزهای عبور مطابقت ندارند!",
+      "imageError": "خطای تصویر: فرمت نامعتبر",
+      "fileSize": "* حجم فایل نباید بیشتر از 5 مگابایت باشد!",
+      "fileType": "* لطفاً فقط فایل تصویری انتخاب کنید!",
+      "usernameExists": "نام کاربری قبلاً وجود دارد",
+      "connectionErrorShort": "⛔️ ارتباط با سرور قطع شد! اتصال اینترنت خود را بررسی کنید.",
+      "requestTimeout": "⛔️ زمان درخواست به پایان رسید! سرور پاسخ نمی‌دهد.",
+      "connectionErrorType": "خطای ارتباطی",
+      "serverResponse": "سرور پاسخ غیر JSON برگرداند",
+      "unknownError": "خطای ناشناخته"
+    },
+    "verification": {
+      "iAmHuman": "ربات نیستم",
+      "verified": "تأیید شد",
+      "title": "تأیید کنید که انسان هستید",
+      "findThese": "این ایموجی‌ها را پیدا کنید",
+      "selected": "ایموجی‌های انتخاب شده",
+      "attemptsLeft": "تلاش‌های باقی‌مانده",
+      "attempts": "تلاش",
+      "wrongEmoji": "ایموجی اشتباه! لطفاً دوباره تلاش کنید.",
+      "success": "تأیید هویت موفق! شما انسان هستید!",
+      "failure": "تأیید هویت ناموفق! لطفاً بعداً دوباره تلاش کنید.",
+      "pleaseVerify": "لطفاً قبل از ثبت‌نام تأیید کنید که انسان هستید."
+    },
+    "terms": {
+      "agree": "من کاملاً موافقم با",
+      "link": "قوانین شبکه AnyVoice",
+      "pleaseAccept": "لطفاً قوانین شبکه AnyVoice را بپذیرید"
+    }
+  },
+
+  "privacy": {
+    "back": "بازگشت",
+    "title": "قوانین و شرایط",
+    "subtitle": "AnyVoice - سند رسمی قانونی",
+    
+    "section1": {
+      "title": "1. پذیرش شرایط",
+      "content": "با استفاده از AnyVoice، شما با این شرایط و قوانین موافقت می‌کنید. اگر با هر بخشی از این شرایط موافق نیستید، لطفاً از استفاده از شبکه خودداری کنید."
+    },
+    
+    "section2": {
+      "title": "2. حفظ حریم خصوصی کامل داده‌ها",
+      "content": "حریم خصوصی شما در اولویت ماست. ما هیچ گونه اطلاعات شخصی را جمع‌آوری، ذخیره یا ردیابی نمی‌کنیم. با دقت بخوانید:",
+      "list1": "هیچ آدرس IP ثبت یا ذخیره نمی‌شود",
+      "list2": "هیچ آدرس ایمیلی جمع‌آوری، ثبت یا ذخیره نمی‌شود. ما اصلاً ایمیل شما را نمی‌پرسیم و نمی‌گیریم",
+      "list3": "هیچ اطلاعات شخصی (نام، نام خانوادگی، شماره تلفن، آدرس، به جز نام کاربری) جمع‌آوری یا ردیابی نمی‌شود",
+      "list4": "تمام اطلاعاتی که به اشتراک می‌گذارید، رمزگذاری شده و کاملاً محفوظ می‌ماند",
+      "list5": "شما حق کامل برای حذف یا تغییر هر محتوایی که منتشر می‌کنید دارید",
+      "security": "Sanjar (سازنده) مسئولیت کامل هرگونه نشت اطلاعات را می‌پذیرد (به استثنای حملات هکری). اطلاعات شما هرگز به اشخاص ثالث فروخته نمی‌شود یا برای اهداف تبلیغاتی استفاده نمی‌گردد."
+    },
+    
+    "section3": {
+      "title": "3. مسئولیت و رفتار ممنوع کاربر",
+      "content": "هر کاربر مسئول تمام محتوایی است که در AnyVoice منتشر می‌کند. اقدامات زیر کاملاً ممنوع است:",
+      "list1": "انتشار محتوای خشونت‌آمیز یا ویدیویی که آسیب فیزیکی به افراد یا حیوانات را نشان می‌دهد",
+      "list2": "استثمار کودکان، تعرض به کودکان یا هر محتوایی که کودکان را در موقعیت‌های نامناسب نشان می‌دهد",
+      "list3": "دعوت، تشویق یا تسهیل استفاده یا فروش مواد مخدر",
+      "list4": "اذیت، توهین، تهدید یا سخنان نفرت‌انگیز علیه هر شخص یا گروه",
+      "list5": "انتشار اطلاعات شخصی دیگران بدون رضایت آنها",
+      "list6": "اسپم، کلاهبرداری، فیشینگ یا هر فعالیت کلاهبردارانه",
+      "list7": "محتوای تروریستی یا دعوت به خشونت",
+      "warning": "نقض هر یک از این قوانین باعث حذف فوری محتوای نقض‌کننده و ممنوعیت دائمی حساب شما بدون اطلاع قبلی می‌شود."
+    },
+    
+    "section4": {
+      "title": "4. هرگز فاش نشدن اطلاعات - حریم خصوصی مطلق",
+      "content": "هرگز اطلاعات کاربران به هیچ شخص ثالثی فاش، فروخته یا به اشتراک گذاشته نمی‌شود. این حتی زمانی که شما قوانین ما یا قوانین هر کشوری را نقض کنید نیز اعتبار دارد.",
+      "strongWarning": "مهم: حتی با حکم دادگاه یا درخواست قانونی هر دولت یا مقامی، AnyVoice هرگز اطلاعات کاربران را نمی‌دهد. تنها اقدامی که برای تخلفات انجام می‌شود، حذف محتوای نقض‌کننده یا حساب کاربری است. هویت شما همیشه کاملاً ناشناس و محافظت شده می‌ماند."
+    },
+    
+    "section5": {
+      "title": "5. نظارت بر داده‌ها وجود ندارد - نظارت از طریق Raidها",
+      "content": "AnyVoice محتوا یا رفتار کاربران را به طور فعال نظارت، ردیابی یا جاسوسی نمی‌کند. هیچ سیستم نظارت خودکاری وجود ندارد.",
+      "raidInfo": "هر روز RAIDها انجام می‌شوند. Raidها بازرسی توسط سازنده است که به عنوان یک کاربر عادی پستی که شما منتشر کرده‌اید را مشاهده می‌کند. اگر در حین raid هر محتوای نامناسب یا غیرقانونی پیدا شود، حذف می‌شود. هیچ بازرسی قبلی وجود ندارد. همچنین، اگر هر کاربر دیگری شکایت (report) کند، آن شکایت نیز به همین ترتیب - به صورت دستی بررسی می‌شود و پس از تأیید، محتوای غیرقانونی حذف می‌گردد.",
+      "info": "بازرسی قبلی وجود ندارد. نظارت فقط از طریق raidهای دستی (که به عنوان کاربر عادی انجام می‌شوند) و گزارش‌های کاربران صورت می‌گیرد. هیچ کاربری قبلاً نظارت یا ردیابی نمی‌شود."
+    },
+    
+    "section6": {
+      "title": "6. تغییرات شرایط",
+      "content": "Sanjar حق اعمال تغییرات در این شرایط را در هر زمان بدون اطلاع قبلی دارد. تغییرات پس از انتشار فوراً اعتبار پیدا می‌کنند. استفاده از شبکه پس از تغییرات به معنای پذیرش شرایط جدید است."
+    },
+    
+    "section7": {
+      "title": "7. تماس با ما",
+      "content": "اگر سؤال، نگرانی یا شاهد نقض قانون هستید و می‌خواهید گزارش دهید، لطفاً مستقیماً از طریق ایمیل با ما تماس بگیرید. توجه: بخش حقوقی وجود ندارد - شما مستقیماً با سازنده تماس می‌گیرید."
+    },
+    
+    "footer": "©2026 AnyVoice. تمام حقوق محفوظ است.",
+    "lastUpdated": "آخرین به‌روزرسانی: 3 مه 2026",
+    "effective": "سند قانونی معتبر فقط در داخل شبکه"
+  },
+
+  "forgotPassword": {
+    "title": "رمز عبور را فراموش کرده‌اید",
+    "pageTitle": "بازیابی رمز عبور",
+    "usernamePlaceholder": "نام کاربری را وارد کنید",
+    "recoveryCodePlaceholder": "کد بازیابی را وارد کنید (XXXX-XXXX)",
+    "newPasswordPlaceholder": "رمز عبور جدید را وارد کنید",
+    "confirmPasswordPlaceholder": "رمز عبور جدید را تأیید کنید",
+    "continueButton": "بررسی",
+    "verifying": "در حال بررسی...",
+    "updateButton": "به‌روزرسانی رمز",
+    "updating": "در حال به‌روزرسانی...",
+    "goToStep2": "رفتن به رمز جدید",
+    "backToLogin": "بازگشت به ورود",
+    "remembered": "به یاد آوردید؟",
+    "step1": {
+      "title": "بازیابی حساب",
+      "description": "نام کاربری و کد بازیابی که هنگام ساخت حساب دریافت کردید را وارد کنید.",
+      "recoveryInfo": "کد بازیابی هنگام ساخت حساب داده شده است.",
+      "recoveryNote": "این کد برای بازیابی رمز عبور لازم است.",
+      "codeVerified": "✅ کد تأیید شد! اکنون می‌توانید رمز جدیدی تنظیم کنید."
+    },
+    "step2": {
+      "title": "رمز عبور جدید",
+      "description": "برای حساب {{username}} رمز عبور جدید وارد کنید",
+      "newPassword": "رمز عبور جدید",
+      "newPasswordPlaceholder": "رمز عبور جدید را وارد کنید",
+      "confirmPassword": "تأیید رمز عبور جدید",
+      "confirmPasswordPlaceholder": "رمز عبور جدید را تأیید کنید"
+    },
+    "stepIndicator": {
+      "recovery": "بازیابی",
+      "newPassword": "رمز جدید"
+    },
+    "passwordRequirements": "رمز عبور باید:",
+    "requirement1": "• بین 8 تا 30 کاراکتر باشد",
+    "requirement2": "• برای امنیت از رمز پیچیده استفاده کنید",
+    "successMessage": "✅ رمز عبور با موفقیت به‌روزرسانی شد!",
+    "lockout": {
+      "title": "تلاش‌های زیاد",
+      "message": "شما 3 بار کد نادرست وارد کرده‌اید.",
+      "waitText": "لطفاً منتظر بمانید..."
+    },
+    "newRecovery": {
+      "title": "کد بازیابی جدید",
+      "warning": "مهم: این کد را در جای امن ذخیره کنید!",
+      "info": "رمز عبور شما با موفقیت تغییر کرد. این کد بازیابی جدید است:",
+      "copy": "کپی کد",
+      "codeCopied": "✅ کد جدید کپی شد!",
+      "securityNote": "به دلایل امنیتی، این کد دیگر نمایش داده نمی‌شود.",
+      "instruction": "لطفاً این کد را ذخیره کنید. در آینده برای بازیابی حساب به آن نیاز خواهید داشت.",
+      "confirm": "کد را ذخیره کرده‌ام"
+    },
+    "errors": {
+      "usernameRequired": "* لطفاً نام کاربری را وارد کنید!",
+      "recoveryCodeRequired": "* لطفاً کد بازیابی را وارد کنید!",
+      "recoveryCodeLength": "* کد باید 8 کاراکتر باشد!",
+      "userNotFound": "❌ کاربر یافت نشد!",
+      "recoveryCodeNotFound": "❌ کد برای این کاربر یافت نشد!",
+      "invalidRecoveryCode": "❌ کد نادرست! {{attemptsLeft}} تلاش باقی مانده است.",
+      "tooManyAttempts": "⛔ تلاش‌های ناموفق زیاد شد! {{seconds}} ثانیه منتظر بمانید.",
+      "newPasswordRequired": "* لطفاً رمز عبور جدید را وارد کنید!",
+      "newPasswordLength": "* رمز عبور باید بین 8 تا 30 کاراکتر باشد!",
+      "confirmPasswordRequired": "* لطفاً رمز عبور را تأیید کنید!",
+      "passwordsDoNotMatch": "* رمزهای عبور مطابقت ندارند!",
+      "recoveryCodeNotVerified": "❌ کد تأیید نشده است. دوباره شروع کنید.",
+      "verificationExpired": "⏰ زمان تأیید به پایان رسید. دوباره شروع کنید.",
+      "connectionError": "⛔️ ارتباط با سرور قطع شد! اتصال اینترنت خود را بررسی کنید.",
+      "requestTimeout": "⛔️ زمان درخواست به پایان رسید! سرور پاسخ نمی‌دهد.",
+      "connectionErrorType": "خطای ارتباطی",
+      "serverResponse": "سرور پاسخ نامعتبر (غیر JSON) برگرداند",
+      "unknownError": "خطای ناشناخته"
+    }
+  },
+
+  "menu": {
+    "home": "خانه",
+    "homeDescription": "سلام، {name}! به صفحه اصلی خوش آمدید.",
+    "videos": "ویدیوها",
+    "videosDescription": "ویدیوهای متنوع را تماشا کنید.",
+    "images": "تصاویر",
+    "imagesDescription": "تصاویر متنوع را تماشا کنید.",
+    "products": "محصولات",
+    "productsDescription": "محصولات متنوع را خریداری کنید.",
+    "explore": "کشف",
+    "exploreDescription": "کشفیات متنوع را بحث کنید.",
+    "user": "کاربر",
+    "welcome": "خوش آمدید",
+    "nav": {
+      "home": "اصلی",
+      "chat": "چت",
+      "search": "جستجو",
+      "explore": "کشف"
+    },
+    "placeholders": {
+      "home": "خانه",
+      "videos": "ویدیوها",
+      "images": "تصاویر",
+      "products": "محصولات",
+      "explore": "کشف"
+    }
+  },
+
+  "chat": {
+    "title": "گفتگوها",
+    "searchPlaceholder": "جستجو...",
+    "searchResults": "نتایج جستجو",
+    "noSearchResults": "حسابی برای جستجوی شما یافت نشد.",
+    "searching": "جستجوی حساب‌ها...",
+    "noContacts": "مخاطبی یافت نشد.",
+    "loadingContacts": "بارگذاری مخاطبین...",
+    "loadMore": "بارگذاری بیشتر",
+    "loading": "بارگذاری...",
+    "messages": {
+      "loading": "بارگذاری پیام‌ها...",
+      "noMessages": "هنوز پیامی نیست. گفتگو را شروع کنید!",
+      "loadMore": "بارگذاری بیشتر",
+      "loadingMore": "بارگذاری بیشتر...",
+      "edited": "(ویرایش شد)",
+      "edit": "ویرایش",
+      "delete": "حذف",
+      "sendMessage": "پیام خود را بنویسید...",
+      "sending": "در حال ارسال...",
+      "deleteForBoth": "حذف برای همه",
+      "reply": "پاسخ",
+      "deletedMessage": "[پیام حذف شده]"
+    },
+    "voice": {
+      "voiceMessage": "پیام صوتی",
+      "send": "ارسال",
+      "cancel": "لغو",
+      "recording": "در حال ضبط...",
+      "microphoneError": "خطای دسترسی به میکروفون. لطفاً مجوزها را بررسی کنید.",
+      "stop": "توقف",
+      "processing": "در حال پردازش..."
+    },
+    "reply": {
+      "replyingTo": "پاسخ به ",
+      "reply": "پاسخ",
+      "cancel": "لغو"
+    },
+    "dialogs": {
+      "edit": {
+        "title": "ویرایش پیام",
+        "save": "ذخیره",
+        "cancel": "لغو"
+      },
+      "delete": {
+        "title": "آیا مطمئن هستید که می‌خواهید این پیام را حذف کنید؟",
+        "delete": "حذف",
+        "cancel": "لغو"
+      },
+      "deleteFullChat": {
+        "title": "حذف گفتگو",
+        "message": "آیا مطمئن هستید که می‌خواهید تمام پیام‌های گفتگو را با {{name}} حذف کنید؟ این عمل غیرقابل بازگشت است.",
+        "delete": "حذف",
+        "cancel": "لغو"
+      }
+    },
+    "status": {
+      "online": "آنلاین",
+      "offline": "آفلاین",
+      "lastSeen": "آخرین بازدید",
+      "justNow": "همین الان",
+      "minutesAgo_one": "{{count}} دقیقه پیش",
+      "minutesAgo_other": "{{count}} دقیقه پیش",
+      "hoursAgo_one": "{{count}} ساعت پیش",
+      "hoursAgo_other": "{{count}} ساعت پیش",
+      "daysAgo_one": "{{count}} روز پیش",
+      "daysAgo_other": "{{count}} روز پیش",
+      "weeksAgo_one": "{{count}} هفته پیش",
+      "weeksAgo_other": "{{count}} هفته پیش",
+      "monthsAgo_one": "{{count}} ماه پیش",
+      "monthsAgo_other": "{{count}} ماه پیش",
+      "longTimeAgo": "خیلی پیش",
+      "today": "امروز",
+      "yesterday": "دیروز"
+    },
+    "welcome": {
+      "title": "به گفتگوها خوش آمدید!",
+      "description": "برای شروع گفتگو، از لیست سمت چپ یک مخاطب را انتخاب کنید."
+    },
+    "dates": {
+      "today": "امروز",
+      "yesterday": "دیروز",
+      "january": "ژانویه",
+      "february": "فوریه",
+      "march": "مارس",
+      "april": "آوریل",
+      "may": "مه",
+      "june": "ژوئن",
+      "july": "ژوئیه",
+      "august": "اوت",
+      "september": "سپتامبر",
+      "october": "اکتبر",
+      "november": "نوامبر",
+      "december": "دسامبر"
+    },
+    "errors": {
+      "connectionError": "⛔️ ارتباط با سرور قطع شد! لطفاً اتصال اینترنت خود را بررسی کنید.",
+      "requestTimeout": "⛔️ زمان انتظار درخواست به پایان رسید! سرور پاسخ نمی‌دهد.",
+      "unknownError": "خطای ناشناخته",
+      "connectionErrorType": "خطای ارتباطی",
+      "serverResponse": "سرور پاسخ غیر JSON برگرداند"
+    },
+    "menu": {
+      "deleteFullChat": "حذف کامل گفتگو"
+    }
+  },
+
+  "home": {
+    "search": "جستجو",
+    "searchPlaceholder": "جستجو...",
+    "notifications": "اعلان‌ها",
+    "noNotifications": "اعلانی وجود ندارد.",
+    "loading": "بارگذاری...",
+    "loadMore": "بارگذاری بیشتر",
+    "ad": "تبلیغات",
+    "viewComment": "مشاهده نظر",
+    "accept": "پذیرفتن",
+    "reject": "رد کردن",
+    "tabs": {
+      "accounts": "حساب‌ها",
+      "images": "تصاویر",
+      "videos": "ویدیوها",
+      "shopings": "فروشگاه‌ها",
+      "products": "محصولات",
+      "theories": "نظریات",
+      "articles": "مقالات"
+    },
+    "scan": {
+      "title": "اسکن کد QR",
+      "uploadQR": "بارگذاری کد QR",
+      "uploadDescription": "تصویری که شامل کد QR است را انتخاب کنید",
+      "scanQR": "اسکن با دوربین",
+      "scanDescription": "برای اسکن کد QR از دوربین دستگاه خود استفاده کنید",
+      "processing": "در حال پردازش...",
+      "success": "✅ کد QR با موفقیت تأیید شد!",
+      "productName": "نام محصول",
+      "physicalName": "نام کالای فیزیکی",
+      "purchaseDate": "تاریخ خرید",
+      "buyer": "خریدار",
+      "commissionReceived": "💰 کمیسیون دریافت شد",
+      "sellerAmount": "🤑 مبلغ به فروشنده ارسال شد",
+      "somoni": "سامانی",
+      "purchaseNotFound": "خرید یافت نشد",
+      "invalidQR": "کد QR نامعتبر",
+      "noQR": "کد QR یافت نشد",
+      "insufficientFunds": "موجودی ناکافی",
+      "notAuthorized": "شما مجوز ندارید",
+      "userNotFound": "کاربر یافت نشد",
+      "alreadyUsed": "این کد QR قبلاً استفاده شده است",
+      "error": "خطای ناشناخته رخ داد",
+      "cameraFeature": "ویژگی اسکن با دوربین به زودی در دسترس خواهد بود!",
+      "cameraNotAvailable": "دوربین در این دستگاه در دسترس نیست",
+      "startingCamera": "شروع دوربین...",
+      "cameraPermission": "دسترسی به دوربین رد شد",
+      "cameraNotFound": "دوربین یافت نشد",
+      "cameraNotSupported": "دوربین پشتیبانی نمی‌شود",
+      "cameraError": "خطای دوربین: {{error}}",
+      "close": "بستن",
+      "processingQR": "در حال پردازش کد QR..."
+    },
+    "errors": {
+      "unknownError": "خطای ناشناخته",
+      "connectionError": "⛔️ ارتباط با سرور قطع شد! لطفاً اتصال اینترنت خود را بررسی کنید.",
+      "requestTimeout": "⛔️ زمان انتظار درخواست به پایان رسید! سرور پاسخ نمی‌دهد."
+    },
+    "TabOfNotifications": {
+      "newPostText": "پست جدیدی اضافه کرد. مشاهده پست:",
+      "collabrationPost": "شما را به همکاری جدید دعوت کرد. مشاهده پست:",
+      "followedYou": "شما را دنبال کرد",
+      "successfullySent": "با موفقیت ارسال شد",
+      "successfullyReceived": "با موفقیت دریافت شد",
+      "wantsToCollaborate": "می‌خواهد محصول خود را در فروشگاه همکاری کند",
+      "viewProduct": "مشاهده محصول:",
+      "createdShop": "فروشگاه جدید ساخت. مشاهده فروشگاه:",
+      "newTheory": "نظریه جدید اضافه کرد. مشاهده نظریه:",
+      "newArticle": "مقاله جدید اضافه کرد. مشاهده مقاله:",
+      "startedCollaboration": "همکاری جدید شروع کرد. مشاهده پست:",
+      "acceptedRequest": "درخواست همکاری شما را پذیرفت",
+      "viewPost": "مشاهده پست:",
+      "newProductInShop": "محصول جدید در فروشگاه اضافه کرد",
+      "addedYourProduct": "محصول شما را در فروشگاه اضافه کرد",
+      "rejectedRequest": "درخواست همکاری شما را رد کرد",
+      "yourAd": "تبلیغ شما",
+      "adCompleted": "به تعداد درخواستی نمایش رسید. متشکرم برای تبلیغ 🥰",
+      "productPurchasedBy": "محصول شما را خرید",
+      "productInShop": "محصول در فروشگاه",
+      "wasPurchasedBy": "خریداری شد توسط",
+      "updatedAddress": "آدرس به‌روزرسانی شد:",
+      "productLabel": "محصول:",
+      "rejectedProductShopRequest": "درخواست شما برای اضافه کردن محصولتان به فروشگاه را رد کرد"
+    }
+  },
+
+  "theory": {
+    "loading": "بارگذاری نظریات...",
+    "error": "خطا در بارگذاری نظریات",
+    "noMore": "نظریه بیشتری وجود ندارد",
+    "read": "خواندن",
+    "confirm": "تأیید",
+    "reject": "رد",
+    "debate": "بحث",
+    "explore": "کشف",
+    "share": "اشتراک‌گذاری",
+    "save": "ذخیره",
+    "editButton": "ویرایش",
+    "deleteButton": "حذف",
+    "report": "گزارش",
+    "link": "لینک",
+    "copyLink": "کپی لینک",
+    "linkCopied": "لینک کپی شد!",
+    "comments": "نظرات",
+    "views": "بازدیدها",
+    "timeAgo": {
+      "justNow": "همین الان",
+      "secondsAgo": "چند ثانیه پیش",
+      "minuteAgo": "یک دقیقه پیش",
+      "minutesAgo": "{{count}} دقیقه پیش",
+      "hourAgo": "یک ساعت پیش",
+      "hoursAgo": "{{count}} ساعت پیش",
+      "dayAgo": "یک روز پیش",
+      "daysAgo": "{{count}} روز پیش",
+      "weekAgo": "یک هفته پیش",
+      "weeksAgo": "{{count}} هفته پیش",
+      "monthAgo": "یک ماه پیش",
+      "monthsAgo": "{{count}} ماه پیش",
+      "yearAgo": "یک سال پیش",
+      "yearsAgo": "{{count}} سال پیش",
+      "unknown": "زمان نامشخص"
+    },
+    "edited": "ویرایش شد!",
+    "author": "نویسنده",
+    "definition": "تعریف",
+    "terms": "اصطلاحات",
+    "relationships": {
+      "title": "روابط با نظریات دیگر",
+      "compatible": "سازگار",
+      "opposing": "مخالف",
+      "stronger": "قوی‌تر از"
+    },
+    "additionalInfo": "اطلاعات اضافی",
+    "sections": {
+      "principles": "اصول اساسی",
+      "evidence": "شواهد علمی/تجربی/منطقی",
+      "conclusions": "نتیجه‌گیری‌های منطقی/پژوهش‌های مستقل",
+      "rejections": "چیزی که نظریه رد می‌کند",
+      "predictions": "پیش‌بینی‌ها",
+      "limitations": "محدودیت‌ها و نقص‌ها"
+    },
+    "edit": {
+      "title": "ویرایش نظریه",
+      "subtitle": "نظریه خود را تغییر دهید",
+      "theoryName": "نام نظریه",
+      "definition": "تعریف",
+      "terms": "اصطلاحات",
+      "relationships": "روابط",
+      "additionalInfo": "اطلاعات اضافی",
+      "advertisement": "تبلیغ نظریه",
+      "advertisementWarning": "برای هر بازدید به عنوان تبلیغ، 0.01 سامانی پرداخت می‌شود.",
+      "advertisementCount": "تعداد بازدیدهای تبلیغاتی",
+      "save": "ذخیره تغییرات",
+      "cancel": "لغو",
+      "add": "افزودن",
+      "delete": "حذف",
+      "placeholder": {
+        "theoryName": "نام نظریه را وارد کنید...",
+        "definition": "تعریف دقیق را وارد کنید...",
+        "term": "اصطلاح",
+        "definition": "تعریف",
+        "compatible": "نظریات سازگار با این نظریه",
+        "opposing": "نظریات مخالف این نظریه",
+        "stronger": "نظریاتی که این نظریه از آنها قوی‌تر است",
+        "additionalInfo": "اطلاعات اضافی..."
+      }
+    },
+    "share": {
+      "title": "اشتراک‌گذاری",
+      "searchPlaceholder": "جستجوی حساب‌ها...",
+      "searching": "جستجوی حساب‌ها...",
+      "noResults": "حسابی یافت نشد",
+      "send": "ارسال",
+      "cancel": "لغو"
+    },
+    "delete": {
+      "title": "حذف نظریه",
+      "confirmation": "آیا مطمئن هستید که می‌خواهید این نظریه را حذف کنید؟",
+      "warning": "این عمل غیرقابل بازگشت است! تمام کشف‌ها، تأییدها، ردها و سایر اطلاعات نیز حذف خواهند شد.",
+      "confirm": "حذف",
+      "cancel": "لغو",
+      "deleting": "در حال حذف...",
+      "success": "مقاله با موفقیت حذف شد."
+    },
+    "report": {
+      "title": "گزارش",
+      "prompt": "دلیل گزارش را بنویسید:",
+      "success": "گزارش با موفقیت ارسال شد",
+      "alreadyReported": "شما قبلاً از این نظریه گزارش داده‌اید!",
+      "error": "خطا در ارسال گزارش"
+    },
+    "errors": {
+      "loadError": "خطا در بارگذاری نظریه",
+      "updateError": "خطا در به‌روزرسانی نظریه",
+      "deleteError": "خطا در حذف نظریه",
+      "shareError": "خطا در اشتراک‌گذاری نظریه",
+      "saveError": "خطا در ذخیره نظریه",
+      "confirmError": "خطا در تأیید نظریه",
+      "rejectError": "خطا در رد نظریه",
+      "commentError": "خطا در بارگذاری نظرات",
+      "insufficientFunds": "موجودی ناکافی!",
+      "unknownError": "خطای ناشناخته"
+    }
+  },
+
+  "video": {
+    "loading": "بارگذاری ویدیو...",
+    "error": "خطا در بارگذاری ویدیو",
+    "noThumbnail": "تصویر بند انگشتی وجود ندارد",
+    "untitled": "بدون عنوان",
+    "views": "بازدید",
+    "view": "بازدید",
+    "comments": "نظرات",
+    "comment": "نظر",
+    "shares": "اشتراک‌گذاری",
+    "share": "اشتراک‌گذاری",
+    "saves": "ذخیره‌ها",
+    "save": "ذخیره",
+    "supports": "حمایت‌ها",
+    "support": "حمایت",
+    "timeAgo": {
+      "justNow": "همین الان",
+      "secondsAgo": "چند ثانیه پیش",
+      "minuteAgo": "یک دقیقه پیش",
+      "minutesAgo": "{{count}} دقیقه پیش",
+      "hourAgo": "یک ساعت پیش",
+      "hoursAgo": "{{count}} ساعت پیش",
+      "dayAgo": "یک روز پیش",
+      "daysAgo": "{{count}} روز پیش",
+      "weekAgo": "یک هفته پیش",
+      "weeksAgo": "{{count}} هفته پیش",
+      "monthAgo": "یک ماه پیش",
+      "monthsAgo": "{{count}} ماه پیش",
+      "yearAgo": "یک سال پیش",
+      "yearsAgo": "{{count}} سال پیش",
+      "unknown": "زمان نامشخص"
+    },
+    "visibility": {
+      "private": "خصوصی",
+      "withLink": "با لینک",
+      "public": "عمومی"
+    },
+    "stats": {
+      "views": "بازدیدها",
+      "uploadTime": "بارگذاری شد",
+      "comments": "نظرات",
+      "saves": "ذخیره‌ها",
+      "supports": "حمایت‌ها"
+    },
+    "actions": {
+      "support": "حمایت",
+      "supported": "حمایت شد",
+      "comment": "نظر دادن",
+      "share": "اشتراک‌گذاری",
+      "save": "ذخیره",
+      "saved": "ذخیره شد",
+      "copyLink": "کپی لینک",
+      "report": "گزارش",
+      "block": "مسدود کردن کاربر",
+      "unblock": "رفع انسداد",
+      "edit": "ویرایش",
+      "delete": "حذف",
+      "more": "بیشتر",
+      "close": "بستن"
+    },
+    "share": {
+      "title": "اشتراک‌گذاری",
+      "searchPlaceholder": "جستجوی حساب‌ها...",
+      "searching": "جستجوی حساب‌ها...",
+      "noResults": "حسابی یافت نشد",
+      "send": "ارسال",
+      "cancel": "لغو",
+      "shared": "اشتراک‌گذاری شد"
+    },
+    "block": {
+      "title": "مسدود کردن کاربران",
+      "searchPlaceholder": "جستجوی حساب‌ها (@نام کاربری یا نام نمایشی)",
+      "searching": "جستجوی حساب‌ها...",
+      "noResults": "حسابی یافت نشد",
+      "block": "مسدود کردن",
+      "unblock": "رفع انسداد",
+      "blocked": "مسدود شد",
+      "blockedBadge": " (مسدود شد)",
+      "blockSuccess": "کاربر @{{username}} مسدود شد",
+      "unblockSuccess": "انسداد کاربر @{{username}} رفع شد",
+      "blockError": "خطا در مسدود کردن کاربر",
+      "unblockError": "خطا در رفع انسداد کاربر"
+    },
+    "report": {
+      "prompt": "دلیل گزارش را بنویسید:",
+      "success": "گزارش با موفقیت ارسال شد",
+      "alreadyReported": "شما قبلاً از این ویدیو گزارش داده‌اید!",
+      "error": "خطا در ارسال گزارش"
+    },
+    "delete": {
+      "confirm": "آیا مطمئن هستید که می‌خواهید این پست را حذف کنید؟",
+      "success": "پست با موفقیت حذف شد",
+      "error": "خطا در حذف پست",
+      "removedFromCollaborators": "شما دیگر همکار این پست نیستید"
+    },
+    "copyLink": {
+      "success": "لینک کپی شد!",
+      "error": "خطا در کپی لینک"
+    },
+    "collaborators": {
+      "label": "همکاران:",
+      "count": "+{{count}} همکار"
+    },
+    "additionalInfo": {
+      "postTime": "زمان انتشار:",
+      "saves": "ذخیره‌های پست:",
+      "views": "بازدیدها:"
+    },
+    "errors": {
+      "loadError": "خطا در بارگذاری اطلاعات ویدیو",
+      "actionError": "خطا در انجام عملیات",
+      "saveError": "خطا در ذخیره ویدیو",
+      "shareError": "خطا در اشتراک‌گذاری ویدیو",
+      "cancelShareError": "خطا در لغو اشتراک‌گذاری",
+      "blockError": "خطا در مسدود کردن کاربر",
+      "unblockError": "خطا در رفع انسداد کاربر",
+      "reportError": "خطا در ارسال گزارش",
+      "deleteError": "خطا در حذف پست",
+      "copyError": "خطا در کپی لینک"
+    }
+  },
+
+  "image": {
+    "loading": "بارگذاری تصویر...",
+    "loadingImage": "بارگذاری تصویر...",
+    "error": "خطا در بارگذاری تصویر",
+    "noThumbnail": "تصویر بند انگشتی وجود ندارد",
+    "untitled": "بدون عنوان",
+    "views": "بازدید",
+    "view": "بازدید",
+    "comments": "نظرات",
+    "comment": "نظر",
+    "shares": "اشتراک‌گذاری",
+    "share": "اشتراک‌گذاری",
+    "saves": "ذخیره‌ها",
+    "save": "ذخیره",
+    "supports": "حمایت‌ها",
+    "support": "حمایت",
+    "timeAgo": {
+      "justNow": "همین الان",
+      "secondsAgo": "چند ثانیه پیش",
+      "minuteAgo": "یک دقیقه پیش",
+      "minutesAgo": "{{count}} دقیقه پیش",
+      "hourAgo": "یک ساعت پیش",
+      "hoursAgo": "{{count}} ساعت پیش",
+      "dayAgo": "یک روز پیش",
+      "daysAgo": "{{count}} روز پیش",
+      "weekAgo": "یک هفته پیش",
+      "weeksAgo": "{{count}} هفته پیش",
+      "monthAgo": "یک ماه پیش",
+      "monthsAgo": "{{count}} ماه پیش",
+      "yearAgo": "یک سال پیش",
+      "yearsAgo": "{{count}} سال پیش",
+      "unknown": "زمان نامشخص"
+    },
+    "visibility": {
+      "private": "خصوصی",
+      "withLink": "با لینک",
+      "public": "عمومی"
+    },
+    "stats": {
+      "views": "بازدیدها",
+      "uploadTime": "بارگذاری شد",
+      "comments": "نظرات",
+      "saves": "ذخیره‌ها",
+      "supports": "حمایت‌ها"
+    },
+    "actions": {
+      "support": "حمایت",
+      "supported": "حمایت شد",
+      "comment": "نظر دادن",
+      "share": "اشتراک‌گذاری",
+      "save": "ذخیره",
+      "saved": "ذخیره شد",
+      "copyLink": "کپی لینک",
+      "report": "گزارش",
+      "block": "مسدود کردن کاربر",
+      "unblock": "رفع انسداد",
+      "edit": "ویرایش",
+      "delete": "حذف",
+      "more": "بیشتر",
+      "close": "بستن"
+    },
+    "share": {
+      "title": "اشتراک‌گذاری",
+      "searchPlaceholder": "جستجوی حساب‌ها...",
+      "searching": "جستجوی حساب‌ها...",
+      "noResults": "حسابی یافت نشد",
+      "send": "ارسال",
+      "cancel": "لغو",
+      "shared": "اشتراک‌گذاری شد"
+    },
+    "block": {
+      "title": "مسدود کردن کاربران",
+      "searchPlaceholder": "جستجوی حساب‌ها (@نام کاربری یا نام نمایشی)",
+      "searching": "جستجوی حساب‌ها...",
+      "noResults": "حسابی یافت نشد",
+      "block": "مسدود کردن",
+      "unblock": "رفع انسداد",
+      "blocked": "مسدود شد",
+      "blockedBadge": " (مسدود شد)",
+      "blockSuccess": "کاربر @{{username}} مسدود شد",
+      "unblockSuccess": "انسداد کاربر @{{username}} رفع شد",
+      "blockError": "خطا در مسدود کردن کاربر",
+      "unblockError": "خطا در رفع انسداد کاربر"
+    },
+    "report": {
+      "prompt": "دلیل گزارش را بنویسید:",
+      "success": "گزارش با موفقیت ارسال شد",
+      "alreadyReported": "شما قبلاً از این تصویر گزارش داده‌اید!",
+      "error": "خطا در ارسال گزارش"
+    },
+    "delete": {
+      "confirm": "آیا مطمئن هستید که می‌خواهید این پست را حذف کنید؟",
+      "success": "پست با موفقیت حذف شد",
+      "error": "خطا در حذف پست",
+      "removedFromCollaborators": "شما دیگر همکار این پست نیستید"
+    },
+    "copyLink": {
+      "success": "لینک کپی شد!",
+      "error": "خطا در کپی لینک"
+    },
+    "collaborators": {
+      "label": "همکاران:",
+      "count": "+{{count}} همکار"
+    },
+    "additionalInfo": {
+      "postTime": "زمان انتشار:",
+      "saves": "ذخیره‌های پست:",
+      "views": "بازدیدها:"
+    },
+    "errors": {
+      "loadError": "خطا در بارگذاری اطلاعات تصویر",
+      "actionError": "خطا در انجام عملیات",
+      "saveError": "خطا در ذخیره تصویر",
+      "shareError": "خطا در اشتراک‌گذاری تصویر",
+      "cancelShareError": "خطا در لغو اشتراک‌گذاری",
+      "blockError": "خطا در مسدود کردن کاربر",
+      "unblockError": "خطا در رفع انسداد کاربر",
+      "reportError": "خطا در ارسال گزارش",
+      "deleteError": "خطا در حذف پست",
+      "copyError": "خطا در کپی لینک"
+    }
+  },
+
+  "exploreVideo": {
+    "loading": "بارگذاری ویدیوها...",
+    "error": "خطا در بارگذاری ویدیوها",
+    "noMore": "ویدیوی بیشتری وجود ندارد",
+    "loadMore": "بارگذاری بیشتر",
+    "placeholder": {
+      "title": "بارگذاری ویدیو...",
+      "description": "لطفاً منتظر بمانید تا ویدیو بارگذاری شود"
+    }
+  },
+
+  "exploreImage": {
+    "loading": "بارگذاری تصاویر...",
+    "error": "خطا در بارگذاری تصاویر",
+    "noMore": "تصویر بیشتری وجود ندارد",
+    "loadMore": "بارگذاری بیشتر",
+    "placeholder": {
+      "title": "بارگذاری تصویر...",
+      "description": "لطفاً منتظر بمانید تا تصویر بارگذاری شود"
+    }
+  },
+
+  "comment": {
+    "loading": "بارگذاری نظرات...",
+    "loadingComment": "بارگذاری نظر...",
+    "error": "خطا در بارگذاری نظرات",
+    "noComments": "هنوز نظری وجود ندارد. اولین نظر را شما بدهید!",
+    "addComment": "نظر بنویسید...",
+    "addReply": "پاسخ بنویسید...",
+    "send": "ارسال",
+    "reply": "پاسخ",
+    "replies": "پاسخ",
+    "showReplies": "نمایش {{count}} پاسخ",
+    "loadMore": "بارگذاری بیشتر",
+    "loadingMore": "بارگذاری...",
+    "edit": "ویرایش",
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "delete": "حذف",
+    "pin": "سنجاق کردن",
+    "unpin": "برداشتن سنجاق",
+    "pinned": "سنجاق شد",
+    "like": "پسندیدن",
+    "unlike": "نپسندیدن",
+    "liked": "پسندیده شد",
+    "edited": "(ویرایش شد)",
+    "owner": "(مالک)",
+    "collaborator": "(همکار)",
+    "timeAgo": {
+      "justNow": "همین الان",
+      "secondsAgo": "چند ثانیه پیش",
+      "minuteAgo": "یک دقیقه پیش",
+      "minutesAgo": "{{count}} دقیقه پیش",
+      "hourAgo": "یک ساعت پیش",
+      "hoursAgo": "{{count}} ساعت پیش",
+      "dayAgo": "یک روز پیش",
+      "daysAgo": "{{count}} روز پیش",
+      "weekAgo": "یک هفته پیش",
+      "weeksAgo": "{{count}} هفته پیش",
+      "monthAgo": "یک ماه پیش",
+      "monthsAgo": "{{count}} ماه پیش",
+      "yearAgo": "یک سال پیش",
+      "yearsAgo": "{{count}} سال پیش",
+      "unknown": "زمان نامشخص"
+    },
+    "status": {
+      "connected": "اینترنت متصل است ✅",
+      "disconnected": "اینترنت قطع است ❌"
+    },
+    "deleteConfirm": "آیا مطمئن هستید که می‌خواهید این نظر را حذف کنید؟",
+    "pinSuccess": "نظر با موفقیت سنجاق شد",
+    "unpinSuccess": "سنجاق نظر با موفقیت برداشته شد",
+    "pinError": "خطا در سنجاق کردن نظر",
+    "deleteError": "خطا در حذف نظر",
+    "addError": "خطا در افزودن نظر",
+    "editError": "خطا در ویرایش نظر",
+    "likeError": "خطا در انجام عملیات",
+    "connectionError": "خطای ارتباطی"
+  },
+
+  "shoping": {
+    "loading": "بارگذاری فروشگاه...",
+    "storeName": "نام فروشگاه:",
+    "storeDisplay": "نام نمایشی فروشگاه:",
+    "storeOwner": "مالک فروشگاه:",
+    "views": "بازدیدها:",
+    "productsCount": "تعداد محصولات:",
+    "createdTime": "زمان تأسیس فروشگاه:",
+    "likes": "پسندها:",
+    "noProducts": "🛍️ محصولی یافت نشد.",
+    "editStore": "ویرایش فروشگاه",
+    "back": "بازگشت",
+    "timeAgo": {
+      "justNow": "همین الان",
+      "secondsAgo": "چند ثانیه پیش",
+      "minuteAgo": "یک دقیقه پیش",
+      "minutesAgo": "{{count}} دقیقه پیش",
+      "hourAgo": "یک ساعت پیش",
+      "hoursAgo": "{{count}} ساعت پیش",
+      "dayAgo": "یک روز پیش",
+      "daysAgo": "{{count}} روز پیش",
+      "weekAgo": "یک هفته پیش",
+      "weeksAgo": "{{count}} هفته پیش",
+      "monthAgo": "یک ماه پیش",
+      "monthsAgo": "{{count}} ماه پیش",
+      "yearAgo": "یک سال پیش",
+      "yearsAgo": "{{count}} سال پیش",
+      "invalid": "زمان نامعتبر"
+    },
+    "errors": {
+      "loadError": "خطا در بارگذاری اطلاعات فروشگاه",
+      "likeError": "خطا در تغییر پسند",
+      "viewError": "خطا در ثبت بازدید"
+    }
+  },
+
+  "product": {
+    "loading": "بارگذاری محصول...",
+    "loadingImage": "بارگذاری تصویر...",
+    "error": "خطا در بارگذاری محصول",
+    "noThumbnail": "تصویر بند انگشتی وجود ندارد",
+    "untitled": "بدون عنوان",
+    "free": "رایگان",
+    "price": "{{price}} سامانی",
+    "views": "بازدید",
+    "comments": "نظرات",
+    "shares": "اشتراک‌گذاری",
+    "saves": "ذخیره‌ها",
+    "buys": "خرید",
+    "buy": "خرید",
+    "bought": "خریداری شد",
+    "save": "ذخیره",
+    "saved": "ذخیره شد",
+    "share": "اشتراک‌گذاری",
+    "edit": "ویرایش",
+    "deleteButton": "حذف",
+    "reportButton": "گزارش",
+    "copyLinkButton": "کپی لینک",
+    "blockButton": "مسدود کردن کاربر",
+    "block": "مسدود کردن کاربر",
+    "unblock": "رفع انسداد",
+    "more": "بیشتر",
+    "close": "بستن",
+    "timeAgo": {
+      "justNow": "همین الان",
+      "secondsAgo": "چند ثانیه پیش",
+      "minuteAgo": "یک دقیقه پیش",
+      "minutesAgo": "{{count}} دقیقه پیش",
+      "hourAgo": "یک ساعت پیش",
+      "hoursAgo": "{{count}} ساعت پیش",
+      "dayAgo": "یک روز پیش",
+      "daysAgo": "{{count}} روز پیش",
+      "weekAgo": "یک هفته پیش",
+      "weeksAgo": "{{count}} هفته پیش",
+      "monthAgo": "یک ماه پیش",
+      "monthsAgo": "{{count}} ماه پیش",
+      "yearAgo": "یک سال پیش",
+      "yearsAgo": "{{count}} سال پیش",
+      "unknown": "زمان نامشخص"
+    },
+    "productType": {
+      "book": "📚 کتاب",
+      "audio": "🎵 صوتی",
+      "video": "🎬 ویدیو",
+      "image": "🖼️ تصویر",
+      "software": "💻 کد",
+      "account": "👤 حساب",
+      "program": "🎮 برنامه/بازی",
+      "physical": "📦 کالای فیزیکی"
+    },
+    "personalSales": "🛒 فروش یکباره",
+    "visibility": {
+      "private": "🔒 خصوصی",
+      "withLink": "🔗 با لینک"
+    },
+    "accountForSale": "حساب برای فروش: ",
+    "shops": "فروشگاه‌ها:",
+    "stats": {
+      "postTime": "زمان انتشار:",
+      "saves": "ذخیره‌های محصول:",
+      "views": "بازدیدها:",
+      "buys": "خریدها:"
+    },
+    "share": {
+      "title": "اشتراک‌گذاری",
+      "searchPlaceholder": "جستجوی حساب‌ها...",
+      "searching": "جستجوی حساب‌ها...",
+      "noResults": "حسابی یافت نشد",
+      "send": "ارسال",
+      "cancel": "لغو"
+    },
+    "block": {
+      "title": "مسدود کردن کاربران",
+      "searchPlaceholder": "جستجوی حساب‌ها (@نام کاربری یا نام نمایشی)",
+      "searching": "جستجوی حساب‌ها...",
+      "noResults": "حسابی یافت نشد",
+      "block": "مسدود کردن",
+      "unblock": "رفع انسداد",
+      "blocked": "مسدود شد",
+      "blockedBadge": " (مسدود شد)",
+      "blockSuccess": "کاربر @{{username}} مسدود شد",
+      "unblockSuccess": "انسداد کاربر @{{username}} رفع شد"
+    },
+    "report": {
+      "prompt": "دلیل گزارش را بنویسید:",
+      "success": "گزارش با موفقیت ارسال شد",
+      "alreadyReported": "شما قبلاً از این محصول گزارش داده‌اید!",
+      "error": "خطا در ارسال گزارش"
+    },
+    "delete": {
+      "confirm": "آیا مطمئن هستید که می‌خواهید این محصول را حذف کنید؟",
+      "success": "محصول با موفقیت حذف شد",
+      "error": "خطا در حذف محصول",
+      "removedFromCollaborators": "شما دیگر همکار این محصول نیستید"
+    },
+    "copyLink": {
+      "success": "لینک کپی شد!",
+      "error": "خطا در کپی لینک"
+    },
+    "buy": {
+      "confirm": "آیا مطمئن هستید که می‌خواهید این محصول را بخرید؟",
+      "insufficientFunds": "موجودی ناکافی!",
+      "alreadySold": "این محصول قبلاً فروخته شده است!",
+      "success": "محصول با موفقیت خریداری شد!",
+      "error": "خطا در خرید محصول",
+      "fileDownloaded": "فایل با موفقیت دانلود شد!",
+      "accountPasswordChange": "رمز عبور حساب تغییر کرد و ایمیل حذف شد. خرید انجام شد!",
+      "passwordChangeRequired": "برای امنیت شما، تغییر رمز عبور حساب ضروری است.",
+      "enterPassword": "رمز عبور را وارد کنید",
+      "confirmPassword": "رمز عبور را تأیید کنید",
+      "passwordsDoNotMatch": "رمزهای عبور مطابقت ندارند!",
+      "passwordLength": "رمز عبور باید بین 8 تا 30 کاراکتر باشد!",
+      "bothPasswordsRequired": "لطفاً هر دو رمز عبور را وارد کنید!",
+      "cancel": "لغو",
+      "submit": "تأیید",
+      "ownerCannotBuy": "شما مالک این محصول هستید، نمی‌توانید آن را بخرید!",
+      "showQRToSeller": "این کد QR را به فروشنده نشان دهید تا محصول را دریافت کنید.",
+      "downloadQR": "دانلود کد QR",
+      "close": "بستن",
+      "enterAddressTitle": "آدرس تحویل کالا را وارد کنید",
+      "enterAddressPlaceholder": "شهر، خیابان، پلاک...",
+      "confirmAddress": "تأیید",
+      "addressRequired": "لطفاً آدرس را وارد کنید!",
+      "addressLabel": "آدرس:"
+    },
+    "errors": {
+      "loadError": "خطا در بارگذاری اطلاعات محصول",
+      "actionError": "خطا در انجام عملیات",
+      "saveError": "خطا در ذخیره محصول",
+      "shareError": "خطا در اشتراک‌گذاری محصول",
+      "cancelShareError": "خطا در لغو اشتراک‌گذاری",
+      "blockError": "خطا در مسدود کردن کاربر",
+      "unblockError": "خطا در رفع انسداد کاربر",
+      "reportError": "خطا در ارسال گزارش",
+      "deleteError": "خطا در حذف محصول",
+      "copyError": "خطا در کپی لینک",
+      "buyError": "خطا در خرید محصول",
+      "downloadError": "خطا در دانلود فایل",
+      "passwordUpdateError": "خطا در به‌روزرسانی رمز عبور"
+    }
+  },
+
+  "exploreProduct": {
+    "loading": "بارگذاری محصولات...",
+    "error": "خطا در بارگذاری محصولات",
+    "noMore": "محصول بیشتری وجود ندارد",
+    "loadMore": "بارگذاری بیشتر",
+    "placeholder": {
+      "title": "بارگذاری محصول...",
+      "description": "لطفاً منتظر بمانید تا محصول بارگذاری شود"
+    }
+  },
+
+  "supportedPosts": {
+    "title": "پست‌های حمایت شده",
+    "images": "تصاویر",
+    "videos": "ویدیوها",
+    "loading": "بارگذاری پست‌های حمایت شده...",
+    "error": "خطا در بارگذاری پست‌های حمایت شده",
+    "noMore": "پست حمایت شده بیشتری وجود ندارد",
+    "noImages": "تصویر حمایت شده وجود ندارد",
+    "noVideos": "ویدیوی حمایت شده وجود ندارد",
+    "loadMore": "بارگذاری بیشتر",
+    "back": "بازگشت",
+    "placeholder": {
+      "title": "بارگذاری...",
+      "description": "لطفاً منتظر بمانید تا محتوا بارگذاری شود"
+    },
+    "tabs": {
+      "images": "تصاویر",
+      "videos": "ویدیوها"
+    }
+  },
+
+  "savedPosts": {
+    "title": "پست‌های ذخیره شده",
+    "images": "تصاویر",
+    "videos": "ویدیوها",
+    "products": "محصولات",
+    "theories": "نظریات",
+    "loading": "بارگذاری پست‌های ذخیره شده...",
+    "error": "خطا در بارگذاری پست‌های ذخیره شده",
+    "noMore": "پست ذخیره شده بیشتری وجود ندارد",
+    "noImages": "تصویر ذخیره شده وجود ندارد",
+    "noVideos": "ویدیوی ذخیره شده وجود ندارد",
+    "noProducts": "محصول ذخیره شده وجود ندارد",
+    "noTheories": "نظریه ذخیره شده وجود ندارد",
+    "loadMore": "بارگذاری بیشتر",
+    "back": "بازگشت",
+    "placeholder": {
+      "title": "بارگذاری...",
+      "description": "لطفاً منتظر بمانید تا محتوا بارگذاری شود"
+    },
+    "tabs": {
+      "images": "تصاویر",
+      "videos": "ویدیوها",
+      "products": "محصولات",
+      "theories": "نظریات"
+    }
+  },
+
+  "reactionToTheories": {
+    "title": "واکنش‌ها به نظریات",
+    "confirmed": "نظریات تأیید شده",
+    "rejected": "نظریات رد شده",
+    "loading": "بارگذاری نظریات...",
+    "error": "خطا در بارگذاری نظریات",
+    "noMore": "نظریه بیشتری وجود ندارد",
+    "noConfirmed": "نظریه تأیید شده وجود ندارد",
+    "noRejected": "نظریه رد شده وجود ندارد",
+    "loadMore": "بارگذاری بیشتر",
+    "back": "بازگشت",
+    "placeholder": {
+      "title": "بارگذاری...",
+      "description": "لطفاً منتظر بمانید تا نظریات بارگذاری شوند"
+    },
+    "tabs": {
+      "confirmed": "نظریات تأیید شده",
+      "rejected": "نظریات رد شده"
+    }
+  },
+
+  "purchasedProducts": {
+    "title": "محصولات خریداری شده",
+    "loading": "بارگذاری محصولات خریداری شده...",
+    "error": "خطا در بارگذاری محصولات خریداری شده",
+    "noMore": "محصول خریداری شده بیشتری وجود ندارد",
+    "noProducts": "محصول خریداری شده وجود ندارد",
+    "loadMore": "بارگذاری بیشتر",
+    "back": "بازگشت",
+    "placeholder": {
+      "title": "بارگذاری...",
+      "description": "لطفاً منتظر بمانید تا محصولات بارگذاری شوند"
+    }
+  },
+
+  "likedStores": {
+    "title": "فروشگاه‌های پسندیده",
+    "loading": "بارگذاری فروشگاه‌های پسندیده...",
+    "error": "خطا در بارگذاری فروشگاه‌های پسندیده",
+    "noMore": "فروشگاه پسندیده بیشتری وجود ندارد",
+    "noStores": "فروشگاه پسندیده وجود ندارد",
+    "loadMore": "بارگذاری بیشتر",
+    "back": "بازگشت",
+    "placeholder": {
+      "title": "بارگذاری...",
+      "description": "لطفاً منتظر بمانید تا فروشگاه‌ها بارگذاری شوند"
+    }
+  },
+
+  "editProfile": {
+    "title": "ویرایش پروفایل",
+    "loading": "بارگذاری اطلاعات...",
+    "profileImage": "عکس پروفایل",
+    "username": "نام کاربری",
+    "usernamePlaceholder": "نام کاربری را وارد کنید",
+    "password": "رمز عبور",
+    "passwordPlaceholder": "رمز عبور را وارد کنید",
+    "confirmPasswordPlaceholder": "رمز عبور را تأیید کنید",
+    "displayName": "نام نمایشی",
+    "displayNamePlaceholder": "نام نمایشی را وارد کنید (اختیاری)",
+    "update": "به‌روزرسانی",
+    "updating": "در حال به‌روزرسانی...",
+    "showPassword": "نمایش رمز عبور",
+    "hidePassword": "مخفی کردن رمز عبور",
+    "errors": {
+      "usernameRequired": "* نام کاربری نمی‌تواند خالی باشد!",
+      "usernameLength": "* نام کاربری باید بین 5 تا 15 کاراکتر باشد!",
+      "usernameLetter": "* نام کاربری باید حداقل یک حرف داشته باشد!",
+      "usernameStart": "* نام کاربری باید با حرف، عدد یا _ شروع شود!",
+      "usernameDot": "* نام کاربری نمی‌تواند با نقطه شروع یا پایان یابد!",
+      "usernameDoubleDot": "* نام کاربری نمی‌تواند دو نقطه پشت سر هم داشته باشد!",
+      "usernameChars": "* نام کاربری فقط می‌تواند شامل حروف، اعداد، _ و . باشد!",
+      "passwordRequired": "* رمز عبور نمی‌تواند خالی باشد!",
+      "passwordLength": "* رمز عبور باید بین 8 تا 30 کاراکتر باشد!",
+      "confirmPasswordRequired": "* لطفاً رمز عبور را تأیید کنید!",
+      "passwordMismatch": "* رمزهای عبور مطابقت ندارند!",
+      "imageError": "خطای تصویر: فرمت نامعتبر",
+      "fileSize": "* حجم فایل نباید بیشتر از 5 مگابایت باشد!",
+      "fileType": "* لطفاً فقط فایل تصویری انتخاب کنید!",
+      "usernameExists": "❌ این نام کاربری قبلاً وجود دارد",
+      "userNotFound": "❌ کاربر یافت نشد",
+      "unknownError": "❌ خطای ناشناخته رخ داد",
+      "connectionErrorShort": "⛔️ ارتباط با سرور قطع شد! اتصال اینترنت خود را بررسی کنید.",
+      "requestTimeout": "⛔️ زمان درخواست به پایان رسید! سرور پاسخ نمی‌دهد.",
+      "connectionErrorType": "خطای ارتباطی",
+      "serverResponse": "سرور پاسخ نامعتبر (غیر JSON) برگرداند"
+    }
+  },
+
+  "commentsPosted": {
+    "title": "نظرات",
+    "loading": "بارگذاری نظرات...",
+    "noComments": "نظری یافت نشد.",
+    "replyTo": "پاسخ به @{{username}}",
+    "edited": "(ویرایش شد)",
+    "viewComment": "مشاهده نظر",
+    "loadMore": "بارگذاری بیشتر",
+    "loadingMore": "بارگذاری...",
+    "allLoaded": "— همه نظرات بارگذاری شدند ({{count}} نظر) —",
+    "back": "بازگشت",
+    "refresh": "بازآوری",
+    "errors": {
+      "connectionError": "⛔️ ارتباط با سرور قطع شد! لطفاً اتصال اینترنت خود را بررسی کنید.",
+      "loadError": "خطا در بارگذاری نظرات",
+      "commentDataError": "خطا در دریافت اطلاعات نظر"
+    },
+    "timeAgo": {
+      "justNow": "همین الان",
+      "secondsAgo": "چند ثانیه پیش",
+      "minuteAgo": "یک دقیقه پیش",
+      "minutesAgo": "{{count}} دقیقه پیش",
+      "hourAgo": "یک ساعت پیش",
+      "hoursAgo": "{{count}} ساعت پیش",
+      "dayAgo": "یک روز پیش",
+      "daysAgo": "{{count}} روز پیش",
+      "weekAgo": "یک هفته پیش",
+      "weeksAgo": "{{count}} هفته پیش",
+      "monthAgo": "یک ماه پیش",
+      "monthsAgo": "{{count}} ماه پیش",
+      "yearAgo": "یک سال پیش",
+      "yearsAgo": "{{count}} سال پیش",
+      "unknown": "زمان نامشخص"
+    }
+  },
+
+  "imageUploader": {
+    "title": "ایجاد پست",
+    "editTitle": "ویرایش پست",
+    "back": "بازگشت",
+    "loading": "بارگذاری...",
+    "uploadProgress": "بارگذاری به سرور: {{progress}}%",
+    "processingProgress": "پردازش تصویر: {{progress}}%",
+    "imageCounter": "{{current}}/{{total}}",
+    "loadingImage": "بارگذاری تصویر...",
+    "selectImages": "انتخاب تصاویر",
+    "processing": "پردازش...",
+    "form": {
+      "title": "عنوان",
+      "titlePlaceholder": "عنوان پست را وارد کنید",
+      "description": "توضیحات",
+      "descriptionPlaceholder": "توضیحات پست را وارد کنید",
+      "visibility": "قابلیت مشاهده پست:",
+      "public": "عمومی",
+      "private": "فقط من",
+      "withLink": "فقط با لینک",
+      "allowComments": "مجاز بودن نظرات",
+      "advertise": "تبلیغ پست",
+      "advertisementNote": "برای هر بازدید به عنوان تبلیغ، 0.01 سامانی پرداخت می‌شود.",
+      "advertisementCount": "تعداد بازدیدهای تبلیغاتی",
+      "collaborate": "افزودن همکاران",
+      "selectedAccounts": "حساب‌های انتخاب شده: {{count}}/10",
+      "post": "انتشار",
+      "update": "به‌روزرسانی"
+    },
+    "collaboration": {
+      "searchPlaceholder": "جستجوی حساب‌ها...",
+      "searching": "جستجو...",
+      "noResults": "حسابی یافت نشد",
+      "send": "ارسال",
+      "cancel": "لغو"
+    },
+    "errors": {
+      "maxFileSize": "فایل نباید بیشتر از {{size}} مگابایت باشد!",
+      "maxImages": "شما نمی‌توانید بیشتر از 10 تصویر بارگذاری کنید!",
+      "noImages": "لطفاً تصویر را انتخاب کنید!",
+      "selectImage": "لطفاً تصویر را انتخاب کنید!",
+      "insufficientFunds": "موجودی ناکافی!",
+      "uploadFailed": "بارگذاری ناموفق بود",
+      "updateFailed": "به‌روزرسانی ناموفق بود",
+      "connectionError": "⛔️ ارتباط با سرور قطع شد! لطفاً اتصال اینترنت خود را بررسی کنید.",
+      "linkCheckError": "خطا در بررسی لینک",
+      "invalidLink": "لینک نامعتبر",
+      "accessDenied": "شما به این پست دسترسی ندارید (مسدود شده‌اید)",
+      "postLoadError": "خطا در بارگذاری پست",
+      "imageLoadError": "خطا در بارگذاری تصویر",
+      "accountLoadError": "خطا در بارگذاری حساب‌ها",
+      "searchError": "خطا در جستجوی حساب‌ها",
+      "webSocketError": "خطای WebSocket"
+    }
+  },
+
+  "productUploader": {
+    "title": "ایجاد محصول",
+    "editTitle": "ویرایش محصول",
+    "back": "بازگشت",
+    "loading": "بارگذاری...",
+    "uploadProgress": "بارگذاری به سرور: {{progress}}%",
+    "processingProgress": "پردازش تصویر: {{progress}}%",
+    "imageCounter": "{{current}}/{{total}}",
+    "loadingImage": "بارگذاری تصویر...",
+    "selectImages": "انتخاب تصاویر محصول",
+    "selectImagesNote": "لطفاً حداقل 3 تصویر انتخاب کنید",
+    "processing": "پردازش...",
+    "form": {
+      "title": "عنوان",
+      "titlePlaceholder": "عنوان محصول را وارد کنید",
+      "description": "توضیحات محصول",
+      "descriptionPlaceholder": "توضیحات محصول را وارد کنید",
+      "price": "قیمت (به سامانی)",
+      "pricePlaceholder": "قیمت را وارد کنید",
+      "commission": "کمیسیون 1% دریافت می‌شود!",
+      "productType": "نوع محصول:",
+      "selectType": "انتخاب",
+      "types": {
+        "book": "کتاب",
+        "audio": "صوتی",
+        "video": "ویدیو",
+        "image": "تصویر",
+        "software": "کد",
+        "account": "حساب",
+        "program": "برنامه/بازی",
+        "physical": "کالای فیزیکی"
+      },
+      "fileUpload": {
+        "book": "انتخاب کتاب",
+        "audio": "انتخاب صوتی",
+        "video": "انتخاب ویدیو",
+        "image": "انتخاب تصویر",
+        "software": "انتخاب کد",
+        "program": "انتخاب برنامه/بازی",
+        "select": "انتخاب فایل"
+      },
+      "softwareNote": "شما باید کد برنامه، بازی یا هر پروژه‌ای را بارگذاری کنید. می‌توانید آن را به صورت اصلی (مثلاً .py) یا به عنوان آرشیو (مثلاً .zip) بارگذاری کنید.",
+      "programNote": "برنامه‌ها و بازی‌ها برای کامپیوترها (Windows, Mac, Linux)، تلفن‌ها (Android, iOS) و تبلت‌ها. فایل‌های اجرایی (.exe, .msi, .dmg, .apk, .ipa)، آرشیوها (.zip, .rar) و سایر فرمت‌های اجرایی مجاز هستند.",
+      "uploadedFile": "فایل بارگذاری شده: {{filename}}",
+      "allowComments": "مجاز بودن نظرات",
+      "personalSales": "فروش فقط به یک خریدار (توصیه نمی‌شود)",
+      "advertise": "تبلیغ پست",
+      "advertisementNote": "برای هر بازدید تبلیغاتی 0.01 سامانی پرداخت می‌شود.",
+      "advertisementCount": "تعداد بازدیدهای تبلیغاتی",
+      "storeNote": "برای فروش محصول خود، آن را در چندین فروشگاه لیست کنید و پس از فروخته شدن حذف کنید. صاحبان فروشگاه باید درخواست شما را بپذیرند تا محصول شما در فروشگاه آنها ظاهر شود.",
+      "selectStore": "انتخاب فروشگاه",
+      "selectedStores": "فروشگاه‌های انتخاب شده: {{count}}/10",
+      "submit": "انتشار",
+      "update": "به‌روزرسانی",
+      "uploading": "بارگذاری...",
+      "deliveryMethod": "روش تحویل",
+      "pickup": "تحویل حضوری",
+      "courier": "پیک",
+      "pickupAddress": "آدرس تحویل حضوری",
+      "pickupAddressPlaceholder": "آدرس کامل را وارد کنید...",
+      "pickupAddressNote": "خریدار به این آدرس می‌آید تا محصول را تحویل بگیرد",
+      "courierAvailable": "پیک در دسترس است",
+      "courierNote": "خریدار می‌تواند برای دریافت محصول درخواست پیک دهد",
+      "physicalProductName": "نام کالای فیزیکی",
+      "physicalProductPlaceholder": "نام کالای فیزیکی را وارد کنید..."
+    },
+    "collaboration": {
+      "searchPlaceholder": "جستجوی حساب‌ها",
+      "searching": "جستجو...",
+      "noResults": "حسابی یافت نشد",
+      "send": "ارسال",
+      "cancel": "لغو"
+    },
+    "account": {
+      "title": "تأیید حساب",
+      "username": "نام کاربری",
+      "password": "رمز عبور",
+      "email": "ایمیل",
+      "verify": "تأیید حساب",
+      "verificationCode": "کد تأیید",
+      "verifyCode": "تأیید",
+      "verificationNote": "کد تأیید به {{email}} ارسال شد",
+      "infoNote": "اگر رمز را دریافت نکردید، مطمئن شوید که اتصال اینترنت شما کار می‌کند و دوباره تلاش کنید.",
+      "selectedAccount": "حساب: {{username}}",
+      "errors": {
+        "usernameRequired": "لطفاً نام کاربری را وارد کنید",
+        "passwordRequired": "لطفاً رمز عبور را وارد کنید",
+        "emailRequired": "لطفاً ایمیل را وارد کنید (اختیاری)",
+        "invalidUsername": "نام کاربری نامعتبر است!",
+        "invalidPassword": "رمز عبور نامعتبر است!",
+        "noEmail": "حساب شما ایمیل ندارد!",
+        "invalidEmail": "ایمیل نامعتبر است!",
+        "noRequest": "درخواست تأیید یافت نشد یا رمز نامعتبر است.",
+        "codeExpired": "مهلت کد تأیید گذشته است.",
+        "userNotFound": "کاربر یافت نشد."
+      }
+    },
+    "errors": {
+      "maxFileSize": "حجم فایل نباید بیشتر از {{size}} مگابایت باشد!",
+      "maxImages": "شما نمی‌توانید بیشتر از 10 تصویر بارگذاری کنید!",
+      "minImages": "لطفاً حداقل 3 تصویر انتخاب کنید!",
+      "titleRequired": "عنوان نمی‌تواند خالی باشد!",
+      "descriptionRequired": "توضیحات محصول نمی‌تواند خالی باشد!",
+      "priceRequired": "لطفاً قیمت محصول را وارد کنید!",
+      "invalidPrice": "قیمت نامعتبر یا بیشتر از 2 رقم اعشار!",
+      "typeRequired": "لطفاً نوع محصول را انتخاب کنید!",
+      "fileRequired": "لطفاً فایل محصول را بارگذاری کنید!",
+      "storeRequired": "لطفاً حداقل یک فروشگاه برای فروش محصول انتخاب کنید!",
+      "noImages": "لطفاً تصاویر را انتخاب کنید!",
+      "selectImage": "لطفاً تصویر را انتخاب کنید!",
+      "insufficientFunds": "موجودی حساب شما ناکافی است!",
+      "uploadFailed": "بارگذاری ناموفق بود",
+      "updateFailed": "به‌روزرسانی ناموفق بود",
+      "connectionError": "⛔️ ارتباط با سرور قطع شد! لطفاً اتصال اینترنت خود را بررسی کنید.",
+      "linkCheckError": "خطا در بررسی لینک",
+      "invalidLink": "لینک نامعتبر",
+      "accessDenied": "شما به این پست دسترسی ندارید (مسدود شده‌اید)",
+      "postLoadError": "خطا در بارگذاری محصول",
+      "imageLoadError": "خطا در بارگذاری تصویر",
+      "storeLoadError": "خطا در بارگذاری فروشگاه‌ها",
+      "searchError": "خطا در جستجوی فروشگاه‌ها",
+      "webSocketError": "خطای WebSocket",
+      "unknownError": "خطای ناشناخته",
+      "pickupAddressRequired": "لطفاً آدرس را وارد کنید",
+      "physicalProductNameRequired": "لطفاً نام کالای فیزیکی را وارد کنید!"
+    }
+  },
+
+  "shopUploader": {
+    "title": "ایجاد فروشگاه",
+    "editTitle": "ویرایش فروشگاه",
+    "back": "بازگشت",
+    "loading": "بارگذاری اطلاعات فروشگاه...",
+    "uploadProgress": "بارگذاری: {{progress}}%",
+    "uploadNote": "به دلیل پردازش فایل و تبدیل به base64، بارگذاری ممکن است با تأخیر شروع شود. این طبیعی است، لطفاً صبور باشید!",
+    "form": {
+      "selectImage": "انتخاب تصویر فروشگاه",
+      "shopName": "نام فروشگاه",
+      "shopNamePlaceholder": "نام فروشگاه را وارد کنید",
+      "displayName": "نام نمایشی",
+      "displayNamePlaceholder": "نام نمایشی را وارد کنید (اختیاری)",
+      "shopData": "اطلاعات فروشگاه",
+      "shopDataPlaceholder": "اطلاعات فروشگاه را وارد کنید",
+      "advertise": "تبلیغ پست",
+      "advertisementNote": "برای هر بازدید به عنوان تبلیغ، 0.01 سامانی پرداخت می‌شود.",
+      "advertisementCount": "تعداد بازدیدهای تبلیغاتی",
+      "create": "ایجاد فروشگاه",
+      "update": "به‌روزرسانی فروشگاه"
+    },
+    "errors": {
+      "imageRequired": "* لطفاً تصویر فروشگاه را انتخاب کنید!",
+      "nameRequired": "* نام فروشگاه نمی‌تواند خالی باشد!",
+      "nameInvalid": "* 3-30 کاراکتر، باید حداقل یک حرف داشته باشد، A-Z، 0-9، _ و . (نقطه نمی‌تواند در ابتدا یا انتها باشد).",
+      "nameExists": "* نام فروشگاه قبلاً وجود دارد!",
+      "displayRequired": "* نام نمایشی نمی‌تواند خالی باشد!",
+      "dataRequired": "* اطلاعات فروشگاه نمی‌تواند خالی باشد!",
+      "adCountRequired": "* تعداد بازدیدها باید بیشتر از 0 باشد!",
+      "insufficientFunds": "موجودی ناکافی!",
+      "networkError": "خطای شبکه"
+    }
+  },
+
+  "theoryUploader": {
+    "title": "افزودن نظریه جدید",
+    "subtitle": "نظریه خود را به طور دقیق وارد کنید",
+    "close": "بستن",
+    "submit": "افزودن",
+    "submitting": "افزودن نظریه...",
+    "progress": {
+      "title": "افزودن نظریه",
+      "starting": "شروع بارگذاری...",
+      "completed": "نظریه با موفقیت اضافه شد!",
+      "error": "خطا در افزودن نظریه"
+    },
+    "sections": {
+      "0": {
+        "title": "0. نام نظریه",
+        "placeholder": "نام نظریه را وارد کنید..."
+      },
+      "1": {
+        "title": "1. تعریف دقیق",
+        "placeholder": "تعریف دقیق را وارد کنید..."
+      },
+      "A": {
+        "title": "2. اصول اساسی",
+        "icon": "architecture",
+        "titlePlaceholder": "عنوان",
+        "descriptionPlaceholder": "توضیحات",
+        "addButton": "افزودن ثبت جدید"
+      },
+      "B": {
+        "title": "3. شواهد علمی/تجربی/منطقی",
+        "icon": "psychology",
+        "titlePlaceholder": "عنوان",
+        "descriptionPlaceholder": "توضیحات",
+        "addButton": "افزودن ثبت جدید"
+      },
+      "C": {
+        "title": "4. نتیجه‌گیری‌های منطقی/پژوهش‌های مستقل",
+        "icon": "insights",
+        "titlePlaceholder": "عنوان",
+        "descriptionPlaceholder": "توضیحات",
+        "addButton": "افزودن ثبت جدید"
+      },
+      "D": {
+        "title": "5. چیزی که نظریه رد می‌کند",
+        "icon": "block",
+        "titlePlaceholder": "عنوان",
+        "descriptionPlaceholder": "توضیحات",
+        "addButton": "افزودن ثبت جدید"
+      },
+      "E": {
+        "title": "6. پیش‌بینی‌ها",
+        "icon": "trending_up",
+        "titlePlaceholder": "عنوان",
+        "descriptionPlaceholder": "توضیحات",
+        "addButton": "افزودن ثبت جدید"
+      },
+      "F": {
+        "title": "7. محدودیت‌ها و نقص‌ها",
+        "icon": "warning",
+        "titlePlaceholder": "عنوان",
+        "descriptionPlaceholder": "توضیحات",
+        "addButton": "افزودن ثبت جدید"
+      },
+      "terms": {
+        "title": "8. اصطلاحات",
+        "termPlaceholder": "اصطلاح",
+        "definitionPlaceholder": "تعریف",
+        "addButton": "افزودن اصطلاح جدید",
+        "termNumber": "اصطلاح شماره {{number}}"
+      },
+      "relationships": {
+        "title": "9. روابط با نظریات دیگر",
+        "compatible": "سازگار:",
+        "compatiblePlaceholder": "نظریات سازگار با این نظریه",
+        "opposing": "مخالف:",
+        "opposingPlaceholder": "نظریات مخالف این نظریه",
+        "stronger": "قوی‌تر از:",
+        "strongerPlaceholder": "نظریاتی که این نظریه از آنها قوی‌تر است"
+      },
+      "additional": {
+        "title": "10. اطلاعات اضافی",
+        "placeholder": "اطلاعات اضافی درباره نظریه"
+      },
+      "advertisement": {
+        "checkbox": "تبلیغ نظریه",
+        "note": "برای هر بازدید به عنوان تبلیغ، 0.01 سامانی پرداخت می‌شود.",
+        "countPlaceholder": "تعداد بازدیدهای تبلیغاتی"
+      }
+    },
+    "errors": {
+      "theoryNameRequired": "لطفاً نام نظریه را وارد کنید",
+      "definitionRequired": "لطفاً تعریف دقیق را وارد کنید",
+      "compatibleRequired": "لطفاً نظریات سازگار را وارد کنید",
+      "opposingRequired": "لطفاً نظریات مخالف را وارد کنید",
+      "strongerRequired": "لطفاً نظریاتی که این نظریه از آنها قوی‌تر است را وارد کنید",
+      "additionalInfoRequired": "لطفاً اطلاعات اضافی را وارد کنید",
+      "sectionTitleRequired": "لطفاً عنوان {{section}}{{number}} در بخش '{{sectionName}}' را وارد کنید",
+      "termBothRequired": "برای اصطلاح شماره {{number}} هم اصطلاح و هم تعریف باید وارد شود",
+      "termFirstRequired": "برای اصطلاح شماره 1 هم اصطلاح و هم تعریف باید وارد شود",
+      "insufficientFunds": "موجودی ناکافی!",
+      "submitError": "خطا در افزودن نظریه: {{message}}",
+      "progressError": "خطا در شروع فرآیند",
+      "unknownError": "خطای ناشناخته"
+    }
+  },
+
+  "videoUploader": {
+    "title": "ایجاد پست ویدیویی",
+    "editTitle": "ویرایش پست ویدیویی",
+    "back": "بازگشت",
+    "loading": "بارگذاری...",
+    "uploadProgress": "بارگذاری به سرور: {{progress}}%",
+    "processingProgress": "پردازش فایل: {{progress}}%",
+    "uploadNote": "به دلیل پردازش فایل و تبدیل به base64، بارگذاری ممکن است با تأخیر شروع شود. لطفاً صبور باشید!",
+    "form": {
+      "title": "عنوان",
+      "titlePlaceholder": "عنوان پست را وارد کنید",
+      "description": "توضیحات",
+      "descriptionPlaceholder": "توضیحات پست را وارد کنید",
+      "visibility": "قابلیت مشاهده پست:",
+      "public": "عمومی",
+      "private": "فقط من",
+      "withLink": "فقط با لینک",
+      "allowComments": "مجاز بودن نظرات",
+      "advertise": "تبلیغ پست",
+      "advertisementNote": "برای هر بازدید به عنوان تبلیغ، 0.01 سامانی پرداخت می‌شود.",
+      "advertisementCount": "تعداد بازدیدهای تبلیغاتی",
+      "collaborate": "افزودن همکاران",
+      "selectedAccounts": "حساب‌های انتخاب شده: {{count}}/10",
+      "post": "انتشار",
+      "update": "به‌روزرسانی",
+      "uploading": "بارگذاری... {{progress}}%"
+    },
+    "video": {
+      "select": "انتخاب ویدیو",
+      "selectThumbnail": "انتخاب تصویر بند انگشتی",
+      "selectedVideos": "ویدیوهای انتخاب شده ({{count}}/10):",
+      "noThumbnail": "تصویر بند انگشتی انتخاب نشد",
+      "processing": "پردازش...",
+      "deleteSelected": "حذف انتخاب شده‌ها ({{count}})",
+      "videoRequired": "لطفاً ویدیو را انتخاب کنید!",
+      "thumbnailRequired": "لطفاً تصویر بند انگشتی را انتخاب کنید!",
+      "maxSize": "ویدیو نباید بیشتر از {{size}} گیگابایت باشد!",
+      "maxCount": "شما نمی‌توانید بیشتر از 10 ویدیو بارگذاری کنید!",
+      "noSelection": "ویدیویی انتخاب نشد!",
+      "thumbnailMaxSize": "تصویر بند انگشتی نباید بیشتر از 10 مگابایت باشد!",
+      "thumbnailInvalidType": "لطفاً فایل تصویری انتخاب کنید!",
+      "thumbnailLoadError": "خطا در خواندن فایل"
+    },
+    "collaboration": {
+      "searchPlaceholder": "جستجوی حساب‌ها...",
+      "searching": "جستجو...",
+      "noResults": "حسابی یافت نشد",
+      "send": "ارسال",
+      "cancel": "لغو"
+    },
+    "errors": {
+      "insufficientFunds": "موجودی ناکافی!",
+      "uploadFailed": "بارگذاری ناموفق بود",
+      "updateFailed": "به‌روزرسانی ناموفق بود",
+      "connectionError": "⛔️ ارتباط با سرور قطع شد! لطفاً اتصال اینترنت خود را بررسی کنید.",
+      "linkCheckError": "خطا در بررسی لینک",
+      "invalidLink": "لینک نامعتبر",
+      "accessDenied": "شما به این پست دسترسی ندارید (مسدود شده‌اید)",
+      "postLoadError": "خطا در بارگذاری پست",
+      "accountLoadError": "خطا در بارگذاری حساب‌ها",
+      "searchError": "خطا در جستجوی حساب‌ها",
+      "webSocketError": "خطای WebSocket",
+      "unknownError": "خطای ناشناخته"
+    }
+  },
+
+  "account": {
+    "loading": "لطفاً منتظر بمانید...",
+    "userNotFound": "کاربر یافت نشد",
+    "back": "بازگشت",
+    "createPost": "ایجاد پست",
+    "menu": {
+      "saved": "ذخیره شده",
+      "supported": "حمایت شده",
+      "comments": "نظرات داده شده",
+      "purchased": "خریداری شده",
+      "likedStores": "فروشگاه‌های پسندیده",
+      "reactions": "واکنش‌ها به نظریات",
+      "switchAccount": "تغییر حساب",
+      "articles": "مقالات",
+      "language": "زبان"
+    },
+    "profile": {
+      "follow": "دنبال کردن",
+      "unfollow": "لغو دنبال کردن",
+      "message": "پیام",
+      "donate": "کمک مالی",
+      "editProfile": "ویرایش پروفایل",
+      "posts": "پست‌ها",
+      "followers": "دنبال‌کنندگان",
+      "following": "دنبال‌شوندگان",
+      "balance": "موجودی",
+      "donatePrompt": "مبلغی که می‌خواهید کمک مالی کنید را وارد کنید:"
+    },
+    "tabs": {
+      "videos": "ویدیوها ({{count}})",
+      "images": "تصاویر ({{count}})",
+      "articles": "مقالات ({{count}})",
+      "products": "محصولات ({{count}})",
+      "stores": "فروشگاه‌ها ({{count}})",
+      "theories": "نظریات ({{count}})"
+    },
+    "noPosts": {
+      "videos": "🎥 ویدیویی یافت نشد.",
+      "images": "🖼️ تصویری یافت نشد.",
+      "articles": "📝 مقاله‌ای یافت نشد.",
+      "products": "🛍️ محصولی یافت نشد.",
+      "stores": "🏪 فروشگاهی یافت نشد.",
+      "theories": "🧩 نظریه‌ای یافت نشد.",
+      "default": "چیزی یافت نشد."
+    },
+    "modals": {
+      "followers": "دنبال‌کنندگان ({{count}})",
+      "following": "دنبال‌شوندگان ({{count}})",
+      "search": {
+        "followers": "جستجوی دنبال‌کنندگان...",
+        "following": "جستجوی دنبال‌شوندگان...",
+        "noResults": "{{type}} مطابقت‌آوری یافت نشد.",
+        "enterText": "متن را برای جستجو وارد کنید.",
+        "cancel": "لغو جستجو"
+      },
+      "noFollowers": "دنبال‌کننده‌ای یافت نشد.",
+      "noFollowing": "شما هیچ کسی را دنبال نمی‌کنید.",
+      "loading": "بارگذاری...",
+      "endMessage": "همه {{type}} اینها هستند"
+    },
+    "balance": {
+      "add": "افزایش موجودی",
+      "withdraw": "برداشت وجه",
+      "addModal": {
+        "title": "افزایش موجودی",
+        "walletNumber": "شماره کیف پول:",
+        "phoneOrCard": "شماره تلفن یا کارت شما",
+        "instructions": "دستورالعمل:",
+        "instruction1": "شما باید پول به شماره HUMO من ارسال کنید",
+        "instruction2": "هر مقدار پول به شماره Humo Online من ارسال کنید",
+        "instruction3": "شماره تلفن یا کارتی که با آن پول ارسال کرده‌اید را وارد کنید",
+        "instruction4": "دکمه را فشار دهید",
+        "instruction5": "در عرض 24 ساعت تأیید می‌شود",
+        "submit": "افزایش موجودی",
+        "confirmMessage": "ℹ️ به دلیل نبود کیف پول جهانی، وجوه در حساب شخصی نگهداری می‌شوند.\n\nآیا موافق هستید و می‌خواهید درخواست ارسال کنید؟",
+        "success": "✅ درخواست با موفقیت ارسال شد!",
+        "duplicateError": "❌ شما نمی‌توانید دو درخواست افزایش موجودی را همزمان ارسال کنید"
+      },
+      "withdrawModal": {
+        "title": "برداشت وجه",
+        "amountPlaceholder": "مقدار",
+        "cardPlaceholder": "شماره کارت",
+        "submit": "برداشت",
+        "confirm": "آیا مطمئن هستید که می‌خواهید {{amount}} سامانی برداشت کنید؟",
+        "phone": "تلفن: {{phone}}",
+        "yes": "بله",
+        "no": "خیر",
+        "success": "✅ درخواست برداشت {{amount}} سامانی ارسال شد!",
+        "insufficientFunds": "مقدار از موجودی شما بیشتر است!",
+        "invalidAmount": "مقدار نامعتبر یا بیشتر از 2 رقم اعشار!",
+        "fillAllFields": "لطفاً همه فیلدها را پر کنید!",
+        "invalidPhone": "شماره تلفن یا کارت نامعتبر است!",
+        "duplicateError": "❌ شما نمی‌توانید دو درخواست برداشت وجه را همزمان ارسال کنید!"
+      },
+      "transfer": {
+        "prompt": "مبلغ را وارد کنید:",
+        "success": "شما {{amount}} سامانی به @{{username}} ارسال کردید ✅",
+        "insufficientFunds": "موجودی کافی نیست!",
+        "error": "خطا در انتقال پول",
+        "confirm": "شما می‌خواهید {{amount}} سامانی انتقال دهید.\nکمیسیون: {{commission}} سامانی (1%)\nمجموع: {{total}} سامانی\n\nآیا موافق هستید؟",
+        "successFull": "✅ {{amount}} سامانی ارسال شد\nکمیسیون: {{commission}} سامانی\nگیرنده: @{{username}}"
+      }
+    },
+    "errors": {
+      "userNotFound": "کاربر یافت نشد",
+      "transferError": "خطا در انتقال پول",
+      "generalError": "خطا رخ داد"
+    },
+    "report": {
+      "prompt": "دلیل گزارش را بنویسید:",
+      "success": "گزارش با موفقیت ارسال شد",
+      "alreadyReported": "شما قبلاً از این حساب گزارش داده‌اید!",
+      "error": "خطا در ارسال گزارش"
+    }
+  },
+
+  "app": {
+    "loading": "لطفاً منتظر بمانید...",
+    "connecting": "در حال اتصال به سرور...",
+    "back": "بازگشت",
+    "auth": {
+      "errors": {
+        "connection_error": "خطای ارتباطی. لطفاً اتصال اینترنت خود را بررسی کنید.",
+        "timeout": "سرور پاسخ نمی‌دهد. لطفاً بعداً تلاش کنید.",
+        "server_error": "خطای سرور. لطفاً بعداً تلاش کنید.",
+        "failed_to_fetch_user_info": "دریافت اطلاعات کاربر ناموفق بود.",
+        "default": "خطایی رخ داد. لطفاً دوباره تلاش کنید."
+      },
+      "retry_button": "تلاش مجدد",
+      "retry_attempt": "تلاش {{count}} از {{max}}"
+    },
+    "errors": {
+      "storeNotFound": "فروشگاه یافت نشد",
+      "storeError": "خطای بارگذاری فروشگاه",
+      "videoBlocked": "ویدیو مسدود شده است",
+      "videoWrongLink": "لینک ویدیو نامعتبر است",
+      "videoError": "خطای بارگذاری ویدیو",
+      "imageBlocked": "تصویر مسدود شده است",
+      "imageWrongLink": "لینک تصویر نامعتبر است",
+      "imageError": "خطای بارگذاری تصویر",
+      "productBlocked": "محصول مسدود شده است",
+      "productWrongLink": "لینک محصول نامعتبر است",
+      "productNotInStore": "محصول در این فروشگاه موجود نیست",
+      "productNotFound": "محصول یافت نشد",
+      "productError": "خطای بارگذاری محصول",
+      "theoryBlocked": "نظریه مسدود شده است",
+      "theoryWrongLink": "لینک نظریه نامعتبر است",
+      "theoryNotFound": "نظریه یافت نشد",
+      "theoryError": "خطای بارگذاری نظریه",
+      "articleError": "خطای بارگذاری مقاله",
+      "pageNotFound": "صفحه یافت نشد",
+      "pageNotFoundDesc": "صفحه‌ای که جستجو می‌کنید وجود ندارد."
+    },
+    "createPost": {
+      "title": "ایجاد پست",
+      "types": {
+        "image": "تصویر",
+        "video": "ویدیو",
+        "product": "محصول",
+        "shop": "فروشگاه",
+        "theory": "نظریه",
+        "article": "مقاله"
+      }
+    },
+    "banned": {
+      "title": "حساب کاربری شما مسدود شده است",
+      "description": "حساب کاربری شما به طور موقت یا دائمی توسط Sanjar مسدود شده است. اگر سوالی دارید، به ایمیل زیر مراجعه کنید:",
+      "button": "متوجه شدم",
+      "email_label": "ایمیل برای تماس"
+    }
+  },
+
+  "randomAccount": {
+    "title": "حساب با موفقیت ساخته شد!",
+    "saveCredentials": "⚠️ اطلاعات خود را ذخیره کنید - دوباره نمایش داده نمی‌شوند!",
+    "loseWarning": "اگر این اطلاعات را گم کنید، حساب شما قابل بازیابی نخواهد بود!",
+    "copyAndContinue": "📋 کپی و ادامه",
+    "copiedAndContinuing": "✅ کپی شد! ادامه...",
+    "downloadOnly": "دانلود فایل .txt فقط",
+    "downloading": "دانلود...",
+    "fileSaved": "فایل .txt چندزبانه با اطلاعات شما به طور خودکار دانلود می‌شود",
+    "fileTitle": "اطلاعات حساب AnyVoice",
+    "fileWarning": "این اطلاعات را در جای امن نگهداری کنید!",
+    "fileWarning2": "در صورت گم شدن، بازیابی غیرممکن است.",
+    "createdAt": "ساخته شد",
+    "labels": {
+      "username": "نام کاربری",
+      "password": "رمز عبور",
+      "recoveryCode": "رمز بازیابی"
+    }
+  },
+
+  "article": {
+    "readFull": "متن کامل را بخوانید",
+    "writtenBy": "نوشته شده توسط {{name}}",
+    "unknownAuthor": "نویسنده ناشناس",
+    "readingTime": "{{minutes}} دقیقه مطالعه",
+    "views": "بازدیدها",
+    "share": "اشتراک‌گذاری",
+    "edit": "ویرایش",
+    "delete": "حذف",
+    "deleteArticle": "حذف مقاله",
+    "confirmDelete": "آیا واقعاً می‌خواهید این مقاله را حذف کنید؟",
+    "deleting": "در حال حذف...",
+    "cancel": "لغو",
+    "shareArticle": "اشتراک‌گذاری مقاله",
+    "searchUsers": "جستجوی کاربران...",
+    "searching": "جستجو...",
+    "noUsersFound": "هیچ کاربری یافت نشد",
+    "send": "ارسال",
+    "shareSuccess": "مقاله با موفقیت به اشتراک گذاشته شد!",
+    "shareError": "خطا در اشتراک‌گذاری مقاله",
+    "shareCancelled": "اشتراک‌گذاری لغو شد",
+    "close": "بستن",
+    "articleTitle": "عنوان",
+    "articleTitlePlaceholder": "عنوان مقاله را وارد کنید...",
+    "articleSummary": "خلاصه",
+    "articleSummaryPlaceholder": "یک خلاصه کوتاه وارد کنید...",
+    "articleContent": "محتوا",
+    "articleContentPlaceholder": "محتوای مقاله خود را اینجا بنویسید...",
+    "addImages": "افزودن تصاویر",
+    "uploadingImage": "در حال بارگذاری تصویر...",
+    "uploading": "بارگذاری:",
+    "imagePreview": "پیش‌نمایش",
+    "authorName": "نام نویسنده",
+    "authorNamePlaceholder": "نام کامل نویسنده را وارد کنید",
+    "authorNameHint": "این به عنوان نویسنده مقاله نمایش داده می‌شود",
+    "createArticle": "ایجاد مقاله جدید",
+    "editArticle": "ویرایش مقاله",
+    "submit": "انتشار",
+    "creating": "در حال ایجاد...",
+    "submitting": "در حال ثبت...",
+    "error": "خطایی رخ داد",
+    "noArticles": "هیچ مقاله‌ای یافت نشد",
+    "edited": "تغییر یافته: ",
+    "comments": "نظرات",
+    "showComments": "نمایش نظرات",
+    "searchUsersPlaceholder": "یک حساب کاربری برای ارسال مقاله جستجو کنید.",
+    "deleted": "مقاله حذف شد",
+    "reportButton": "گزارش",
+    
+    "advertisement": "📢 تبلیغ مقاله (تبلیغ پولی)",
+    "advertisementWarning": "⚠️ توجه: تبلیغ مقاله نیاز به پرداخت دارد. مبلغی که وارد می‌کنید از موجودی شما کم می‌شود. مبلغ بیشتر به معنای نمایش بهتر و رسیدن به مخاطبان بیشتر است.",
+    "advertisementCountLabel": "تعداد نمایش مطلوب (100 نمایش = 1 سامانی)",
+    "advertisementCountPlaceholder": "مبلغ را وارد کنید (مثلاً 100، 500، 1000، 5000)",
+    "advertisementCost": "💰 هزینه",
+    "advertisementConfirm": "شما {{cost}} سامانی برای {{amount}} نمایش این مقاله پرداخت می‌کنید. ادامه می‌دهید؟",
+    
+    "timeAgo": {
+      "justNow": "همین الان",
+      "secondsAgo": "چند ثانیه پیش",
+      "minuteAgo": "یک دقیقه پیش",
+      "minutesAgo": "{{count}} دقیقه پیش",
+      "hourAgo": "یک ساعت پیش",
+      "hoursAgo": "{{count}} ساعت پیش",
+      "dayAgo": "یک روز پیش",
+      "daysAgo": "{{count}} روز پیش",
+      "weekAgo": "یک هفته پیش",
+      "weeksAgo": "{{count}} هفته پیش",
+      "monthAgo": "یک ماه پیش",
+      "monthsAgo": "{{count}} ماه پیش",
+      "yearAgo": "یک سال پیش",
+      "yearsAgo": "{{count}} سال پیش",
+      "unknown": "زمان نامشخص"
+    },
+
+    "success": {
+      "deleted": "مقاله با موفقیت حذف شد",
+      "created": "مقاله با موفقیت ایجاد شد",
+      "updated": "مقاله با موفقیت به‌روزرسانی شد"
+    },
+    
+    "errors": {
+      "titleRequired": "عنوان الزامی است",
+      "summaryRequired": "خلاصه الزامی است",
+      "contentRequired": "محتوا الزامی است",
+      "authorNameRequired": "نام نویسنده الزامی است",
+      "advertisementCountRequired": "لطفاً تعداد نمایش را وارد کنید",
+      "insufficientFunds": "موجودی کافی برای تبلیغ نیست. لطفاً وجه اضافه کنید.",
+      "createError": "خطا در ایجاد مقاله",
+      "updateError": "خطا در به‌روزرسانی مقاله",
+      "deleteError": "خطا در حذف مقاله",
+      "imageTooLarge": "تصویر خیلی بزرگ است (حداکثر 5 مگابایت)",
+      "tooManyImages": "حداکثر 10 تصویر مجاز است"
+    },
+
+    "report": {
+      "prompt": "دلیل گزارش را بنویسید:",
+      "success": "گزارش با موفقیت ارسال شد",
+      "alreadyReported": "شما قبلاً از این مقاله گزارش داده‌اید!",
+      "error": "خطا در ارسال گزارش"
+    }
+  },
+
+  "savedLikedArticles": {
+    "back": "بازگشت",
+    "error": "خطا در بارگذاری مقالات",
+    "tabs": {
+      "saved": "مقالات ذخیره شده",
+      "liked": "مقالات پسندیده"
+    },
+    "noSaved": "هنوز مقاله ذخیره شده‌ای وجود ندارد",
+    "noLiked": "هنوز مقاله پسندیده‌ای وجود ندارد"
+  },
+
+  "explore": {
+    "video": "ویدیو",
+    "image": "تصویر",
+    "article": "مقاله"
+  }
+}

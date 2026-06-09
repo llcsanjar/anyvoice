@@ -1,0 +1,1962 @@
+{
+  "login": {
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "loginButton": "Login",
+    "loggingIn": "Logging in...",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "signup": "Sign up",
+    "errors": {
+      "usernameRequired": "Please enter your username!",
+      "passwordRequired": "Please enter your password!",
+      "userNotFound": "User not found",
+      "incorrectPassword": "Incorrect password",
+      "passwordDecryptionFailed": "Password decryption failed. Please try again.",
+      "unknownError": "An unknown error occurred. Please try again.",
+      "connectionError": "⛔️ Connection to server lost! Please check your internet.",
+      "tooManyAttempts": "Too many attempts. Try again in"
+    }
+  },
+
+  "signup": {
+    "pageTitle": "Sign Up",
+    "profileImage": "Profile Image",
+    "username": "Username",
+    "usernamePlaceholder": "Enter username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter password",
+    "confirmPasswordPlaceholder": "Confirm password",
+    "displayName": "Display Name",
+    "displayNamePlaceholder": "Enter display name (Optional)",
+    "registerButton": "Sign Up",
+    "registering": "Signing up...",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginLink": "Login",
+    "randomAccountGenerated": "Random account credentials generated for you!",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "regenerate": "Regenerate credentials",
+    "recovery": {
+      "title": "Account Recovery Code",
+      "warning": "IMPORTANT: Save this code in a safe place!",
+      "info": "This code is required to recover your account if you forget your password.",
+      "copy": "Copy Code",
+      "codeCopied": "Recovery code copied to clipboard!",
+      "securityNote": "For security reasons, this code will not be shown again.",
+      "instruction": "Please save this code. You will need it to recover your account.",
+      "confirm": "I have saved the code"
+    },
+    "errors": {
+      "usernameRequired": "* Username cannot be empty!",
+      "usernameLength": "* Username must be between 5 and 15 characters!",
+      "usernameLetter": "* Username must contain at least one letter!",
+      "usernameStart": "* Username must start with a letter, number or _!",
+      "usernameDot": "* Username cannot start or end with a dot!",
+      "usernameDoubleDot": "* Username cannot contain double dots!",
+      "usernameChars": "* Username can only contain letters, numbers, _ and .!",
+      "passwordRequired": "* Password cannot be empty!",
+      "passwordLength": "* Password must be between 8 and 30 characters!",
+      "confirmPasswordRequired": "* Please confirm your password!",
+      "passwordMismatch": "* Passwords do not match!",
+      "imageError": "Image error: incorrect image format",
+      "fileSize": "* File size must not exceed 5MB!",
+      "fileType": "* Please select an image file only!",
+      "usernameExists": "Username already exists",
+      "connectionErrorShort": "⛔️ Connection to server lost! Please check your internet.",
+      "requestTimeout": "⛔️ Request timeout! Server is not responding.",
+      "connectionErrorType": "Connection error",
+      "serverResponse": "Server returned a non-JSON response",
+      "unknownError": "Unknown error"
+    },
+    "verification": {
+      "iAmHuman": "I'm not a robot",
+      "verified": "Verified",
+      "title": "Verify You're Human",
+      "findThese": "Find these emojis",
+      "selected": "Selected emojis",
+      "attemptsLeft": "Attempts left",
+      "attempts": "attempts",
+      "wrongEmoji": "Wrong emoji! Please try again.",
+      "success": "Verification successful! You are human!",
+      "failure": "Verification failed! Please try again later.",
+      "pleaseVerify": "Please verify that you are human before signing up."
+    },
+    "terms": {
+      "agree": "I fully agree with",
+      "link": "AnyVoice network terms",
+      "pleaseAccept": "Please accept the AnyVoice network terms"
+    }
+  },
+
+  "privacy": {
+    "back": "Back",
+    "title": "Terms and Conditions",
+    "subtitle": "AnyVoice — Official Legal Document",
+    
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "content": "By using AnyVoice, you agree to these terms and conditions. If you do not agree with any part of these terms, please refrain from using the platform."
+    },
+    
+    "section2": {
+      "title": "2. Complete Data Privacy",
+      "content": "Your privacy is our top priority. We do not collect, store, or track any personal data. Please note:",
+      "list1": "No IP addresses are recorded or stored",
+      "list2": "No email addresses are collected or stored. We do not ask for your email at all",
+      "list3": "No personal information (name, surname, phone number, address, except username) is collected or tracked",
+      "list4": "All shared data is encrypted and fully confidential",
+      "list5": "You have full rights to delete or modify any content you publish",
+      "security": "Sanjar (the creator) takes full responsibility for any data leaks (except hacking attacks). Your data is NEVER sold or used for advertising purposes."
+    },
+    
+    "section3": {
+      "title": "3. User Responsibility and Prohibited Behavior",
+      "content": "Each user is responsible for the content they post on AnyVoice. The following actions are STRICTLY PROHIBITED:",
+      "list1": "Posting violent content or videos showing harm to people or animals",
+      "list2": "Child exploitation or any inappropriate content involving minors",
+      "list3": "Promoting or facilitating drug use or sales",
+      "list4": "Harassment, insults, threats, or hate speech",
+      "list5": "Publishing personal data of others without consent",
+      "list6": "Spam, scams, phishing, or fraudulent activities",
+      "list7": "Terrorist content or calls for violence",
+      "warning": "Violation of these rules will result in immediate content removal and permanent account ban without prior notice."
+    },
+    
+    "section4": {
+      "title": "4. Absolute Privacy — No Data Disclosure",
+      "content": "User data is never disclosed, sold, or shared with third parties. This applies even if you violate rules or laws.",
+      "strongWarning": "IMPORTANT: Even by court order or government request, AnyVoice does NOT provide user data. The only action taken is content or account removal. Your identity always remains fully anonymous and protected."
+    },
+    
+    "section5": {
+      "title": "5. No Data Monitoring — Moderation via Raids",
+      "content": "AnyVoice does not actively monitor or track user behavior. There is no automated moderation system.",
+      "raidInfo": "Daily RAIDS are conducted. These are manual checks by the creator acting as a regular user. Violating content is removed upon detection.",
+      "info": "NO PRE-MODERATION EXISTS. Moderation is done only through manual raids and user reports."
+    },
+    
+    "section6": {
+      "title": "6. Changes to Terms",
+      "content": "Sanjar reserves the right to modify these terms at any time without prior notice. Changes take effect immediately upon publication."
+    },
+    
+    "section7": {
+      "title": "7. Contact Us",
+      "content": "If you have questions or concerns, contact us directly via email. Note: There is no legal department — you contact the creator directly."
+    },
+    
+    "footer": "©2026 AnyVoice. All rights reserved.",
+    "lastUpdated": "Last updated: May 3, 2026",
+    "effective": "This document is legally valid only within the platform"
+  },
+
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "pageTitle": "Reset Password",
+    "usernamePlaceholder": "Enter your username",
+    "recoveryCodePlaceholder": "Enter recovery code (XXXX-XXXX)",
+    "newPasswordPlaceholder": "Enter new password",
+    "confirmPasswordPlaceholder": "Confirm new password",
+    "continueButton": "Verify",
+    "verifying": "Verifying...",
+    "updateButton": "Update Password",
+    "updating": "Updating...",
+    "goToStep2": "Continue to New Password",
+    "backToLogin": "Back to Login",
+    "remembered": "Remembered?",
+    "step1": {
+      "title": "Account Recovery",
+      "description": "Enter your username and the recovery code you received when creating your account.",
+      "recoveryInfo": "Your recovery code was provided when you created your account.",
+      "recoveryNote": "This code is required to reset your password.",
+      "codeVerified": "✅ Recovery code verified! You can now proceed to set a new password."
+    },
+    "step2": {
+      "title": "New Password",
+      "description": "Enter new password for account {{username}}",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPassword": "Confirm New Password",
+      "confirmPasswordPlaceholder": "Confirm new password"
+    },
+    "stepIndicator": {
+      "recovery": "Recovery",
+      "newPassword": "New Password"
+    },
+    "passwordRequirements": "Password must:",
+    "requirement1": "• Be between 8 and 30 characters long",
+    "requirement2": "• For security, use a complex password",
+    "successMessage": "✅ Password successfully updated!",
+    "lockout": {
+      "title": "Too Many Attempts",
+      "message": "You have entered an incorrect recovery code 3 times.",
+      "waitText": "Please wait..."
+    },
+    "newRecovery": {
+      "title": "New Recovery Code",
+      "warning": "IMPORTANT: Save this code in a safe place!",
+      "info": "Your password has been successfully changed. Here is your new recovery code:",
+      "copy": "Copy Code",
+      "codeCopied": "✅ New recovery code copied to clipboard!",
+      "securityNote": "For security reasons, this code will not be shown again.",
+      "instruction": "Please save this code. You will need it to recover your account in the future.",
+      "confirm": "I have saved the code"
+    },
+    "errors": {
+      "usernameRequired": "* Please enter your username!",
+      "recoveryCodeRequired": "* Please enter your recovery code!",
+      "recoveryCodeLength": "* Recovery code must be 8 characters!",
+      "userNotFound": "❌ User not found!",
+      "recoveryCodeNotFound": "❌ Recovery code not found for this user!",
+      "invalidRecoveryCode": "❌ Invalid recovery code! {{attemptsLeft}} attempts remaining.",
+      "tooManyAttempts": "⛔ Too many failed attempts! Please wait {{seconds}} seconds.",
+      "newPasswordRequired": "* Please enter your new password!",
+      "newPasswordLength": "* Password must be between 8 and 30 characters!",
+      "confirmPasswordRequired": "* Please confirm your new password!",
+      "passwordsDoNotMatch": "* Passwords do not match!",
+      "recoveryCodeNotVerified": "❌ Recovery code not verified. Please start over.",
+      "verificationExpired": "⏰ Verification has expired. Please start over.",
+      "connectionError": "⛔️ Connection to server lost! Please check your internet.",
+      "requestTimeout": "⛔️ Request timeout! Server is not responding.",
+      "connectionErrorType": "Connection error",
+      "serverResponse": "Server returned a non-JSON response",
+      "unknownError": "Unknown error"
+    }
+  },
+
+  "menu": {
+    "home": "Home",
+    "homeDescription": "Hello, {name}! Welcome to the main page.",
+    "videos": "Videos",
+    "videosDescription": "Browse various videos.",
+    "images": "Images",
+    "imagesDescription": "Browse various images.",
+    "products": "Products",
+    "productsDescription": "Shop various products.",
+    "explore": "Explore",
+    "exploreDescription": "Discuss various explore.",
+    "user": "User",
+    "welcome": "Welcome",
+    "nav": {
+      "home": "Home",
+      "chat": "Chat",
+      "search": "Search",
+      "explore": "Explore"
+    },
+    "placeholders": {
+      "home": "Home",
+      "videos": "Videos",
+      "images": "Images",
+      "products": "Products",
+      "explore": "Explore"
+    }
+  },
+
+  "chat": {
+    "title": "Chats",
+    "searchPlaceholder": "Search...",
+    "searchResults": "Search Results",
+    "noSearchResults": "No accounts found for your search.",
+    "searching": "Searching accounts...",
+    "noContacts": "No contacts found.",
+    "loadingContacts": "Loading contacts...",
+    "loadMore": "Load more",
+    "loading": "Loading...",
+    "messages": {
+      "loading": "Loading messages...",
+      "noMessages": "No messages yet. Start a conversation!",
+      "loadMore": "Load more",
+      "loadingMore": "Loading more...",
+      "edited": "(Edited)",
+      "edit": "Edit",
+      "delete": "Delete",
+      "sendMessage": "Type your message...",
+      "sending": "Sending...",
+      "deleteForBoth": "Delete for everyone",
+      "reply": "Reply",
+      "deletedMessage": "[Deleted message]"
+    },
+    "voice": {
+      "voiceMessage": "Voice message",
+      "send": "Send",
+      "cancel": "Cancel",
+      "recording": "Recording...",
+      "microphoneError": "Microphone access error. Please check permissions.",
+      "stop": "Stop",
+      "processing": "Processing..."
+    },
+    "reply": {
+      "replyingTo": "Replying to ",
+      "reply": "Reply",
+      "cancel": "Cancel"
+    },
+    "dialogs": {
+      "edit": {
+        "title": "Edit Message",
+        "save": "Save",
+        "cancel": "Cancel"
+      },
+      "delete": {
+        "title": "Are you sure you want to delete this message?",
+        "delete": "Delete",
+        "cancel": "Cancel"
+      },
+      "deleteFullChat": {
+        "title": "Delete chat",
+        "message": "Are you sure you want to delete all chat messages with {{name}}? This action is irreversible.",
+        "delete": "Delete",
+        "cancel": "Cancel"
+      }
+    },
+    "status": {
+      "online": "Online",
+      "offline": "Offline",
+      "lastSeen": "Last seen",
+      "justNow": "just now",
+      "minutesAgo_one": "{{count}} minute ago",
+      "minutesAgo_other": "{{count}} minutes ago",
+      "hoursAgo_one": "{{count}} hour ago",
+      "hoursAgo_other": "{{count}} hours ago",
+      "daysAgo_one": "{{count}} day ago",
+      "daysAgo_other": "{{count}} days ago",
+      "weeksAgo_one": "{{count}} week ago",
+      "weeksAgo_other": "{{count}} weeks ago",
+      "monthsAgo_one": "{{count}} month ago",
+      "monthsAgo_other": "{{count}} months ago",
+      "longTimeAgo": "A long time ago",
+      "today": "today",
+      "yesterday": "yesterday"
+    },
+    "welcome": {
+      "title": "Welcome to Chats!",
+      "description": "To start a conversation, select a contact from the list on the left."
+    },
+    "dates": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "errors": {
+      "connectionError": "⛔️ Connection to server lost! Please check your internet.",
+      "requestTimeout": "⛔️ Request timeout! Server is not responding.",
+      "unknownError": "Unknown error",
+      "connectionErrorType": "Connection error",
+      "serverResponse": "Server returned a non-JSON response"
+    },
+    "menu": {
+      "deleteFullChat": "Complete chat deletion"
+    }
+  },
+
+  "home": {
+    "search": "Search",
+    "searchPlaceholder": "Search...",
+    "notifications": "Notifications",
+    "noNotifications": "No notifications.",
+    "loading": "Loading...",
+    "loadMore": "Load more",
+    "ad": "Ad",
+    "viewComment": "View comment",
+    "accept": "Accept",
+    "reject": "Reject",
+    "tabs": {
+      "accounts": "Accounts",
+      "images": "Images",
+      "videos": "Videos",
+      "shopings": "Shops",
+      "products": "Products",
+      "theories": "Theories",
+      "articles": "Articles"
+    },
+    "scan": {
+      "title": "Scan QR Code",
+      "uploadQR": "Upload QR Code",
+      "uploadDescription": "Select an image containing a QR code",
+      "scanQR": "Scan with Camera",
+      "scanDescription": "Use your device's camera to scan a QR code",
+      "processing": "Processing...",
+      "success": "✅ QR Code Verified Successfully!",
+      "productName": "Product Name",
+      "physicalName": "Physical Product Name",
+      "purchaseDate": "Purchase Date",
+      "buyer": "Buyer",
+      "commissionReceived": "💰 Commission received",
+      "sellerAmount": "🤑 Amount sent to seller",
+      "somoni": "somoni",
+      "purchaseNotFound": "Purchase not found",
+      "invalidQR": "Invalid QR code",
+      "noQR": "QR code not found",
+      "insufficientFunds": "Insufficient funds",
+      "notAuthorized": "You are not authorized",
+      "userNotFound": "User not found",
+      "alreadyUsed": "This QR code has already been used",
+      "error": "An unknown error occurred",
+      "cameraFeature": "Camera scanning feature will be available soon!",
+      "cameraNotAvailable": "Camera is not available on this device",
+      "startingCamera": "Starting camera...",
+      "cameraPermission": "Camera access denied",
+      "cameraNotFound": "Camera not found",
+      "cameraNotSupported": "Camera not supported",
+      "cameraError": "Camera error: {{error}}",
+      "close": "Close",
+      "processingQR": "Processing QR code..."
+    },
+    "errors": {
+      "unknownError": "Unknown error",
+      "connectionError": "⛔️ Connection to server lost! Please check your internet.",
+      "requestTimeout": "⛔️ Request timeout! Server is not responding."
+    },
+    "TabOfNotifications": {
+      "newPostText": "added a new post. View post:",
+      "collabrationPost": "invited you to a new collaboration. View post:",
+      "followedYou": "started following you",
+      "successfullySent": "Successfully sent",
+      "successfullyReceived": "Successfully received",
+      "wantsToCollaborate": "wants to collaborate and add their product to the shop",
+      "viewProduct": "View product:",
+      "createdShop": "created a new shop. View shop:",
+      "newTheory": "added a new theory. View theory:",
+      "newArticle": "added a new article. View article:",
+      "startedCollaboration": "started a new collaboration. View post:",
+      "acceptedRequest": "accepted your collaboration request",
+      "viewPost": "View post:",
+      "newProductInShop": "added a new product to the shop",
+      "addedYourProduct": "added your product to the shop",
+      "rejectedRequest": "rejected your collaboration request",
+      "yourAd": "Your advertisement",
+      "adCompleted": "has reached the requested number of views. Thanks for advertising 🥰",
+      "productPurchasedBy": "your product was purchased",
+      "productInShop": "Product in shop",
+      "wasPurchasedBy": "was purchased by",
+      "updatedAddress": "address updated:",
+      "productLabel": "Product:",
+      "rejectedProductShopRequest": "rejected your request to add your product in shop"
+    }
+  },
+
+  "theory": {
+    "loading": "Loading theories...",
+    "error": "Error loading theories",
+    "noMore": "No more theories",
+    "read": "Read",
+    "confirm": "Confirm",
+    "reject": "Reject",
+    "debate": "Debate",
+    "explore": "Explore",
+    "share": "Share",
+    "save": "Save",
+    "editButton": "Edit",
+    "deleteButton": "Delete",
+    "report": "Report",
+    "link": "Link",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied!",
+    "comments": "Comments",
+    "views": "Views",
+    "timeAgo": {
+      "justNow": "just now",
+      "secondsAgo": "a few seconds ago",
+      "minuteAgo": "a minute ago",
+      "minutesAgo": "{{count}} minutes ago",
+      "hourAgo": "an hour ago",
+      "hoursAgo": "{{count}} hours ago",
+      "dayAgo": "a day ago",
+      "daysAgo": "{{count}} days ago",
+      "weekAgo": "a week ago",
+      "weeksAgo": "{{count}} weeks ago",
+      "monthAgo": "a month ago",
+      "monthsAgo": "{{count}} months ago",
+      "yearAgo": "a year ago",
+      "yearsAgo": "{{count}} years ago",
+      "unknown": "unknown time"
+    },
+    "edited": "Edited!",
+    "author": "Author",
+    "definition": "Definition",
+    "terms": "Terminology",
+    "relationships": {
+      "title": "Relationships with other theories",
+      "compatible": "Compatible",
+      "opposing": "Opposing",
+      "stronger": "Stronger than"
+    },
+    "additionalInfo": "Additional information",
+    "sections": {
+      "principles": "Basic Principles",
+      "evidence": "Scientific/Experimental/Logical Evidence",
+      "conclusions": "Logical Conclusions/Independent Research",
+      "rejections": "What the theory rejects",
+      "predictions": "Predictions",
+      "limitations": "Limitations and Weaknesses"
+    },
+    "edit": {
+      "title": "Edit Theory",
+      "subtitle": "Modify your theory",
+      "theoryName": "Theory Name",
+      "definition": "Definition",
+      "terms": "Terminology",
+      "relationships": "Relationships",
+      "additionalInfo": "Additional Information",
+      "advertisement": "Advertise theory",
+      "advertisementWarning": "For each view as an advertisement, 0.01 somoni will be charged.",
+      "advertisementCount": "Number of ad views",
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "add": "Add",
+      "delete": "Delete",
+      "placeholder": {
+        "theoryName": "Enter theory name...",
+        "definition": "Enter detailed definition...",
+        "term": "Term",
+        "definition": "Definition",
+        "compatible": "Theories compatible with this theory",
+        "opposing": "Theories opposing this theory",
+        "stronger": "Theories this theory is stronger than",
+        "additionalInfo": "Additional information..."
+      }
+    },
+    "share": {
+      "title": "Share",
+      "searchPlaceholder": "Search accounts...",
+      "searching": "Searching accounts...",
+      "noResults": "No accounts found",
+      "send": "Send",
+      "cancel": "Cancel"
+    },
+    "delete": {
+      "title": "Delete Theory",
+      "confirmation": "Are you sure you want to delete this theory?",
+      "warning": "This action cannot be undone! All explores, confirmations, rejections and other data will also be deleted.",
+      "confirm": "Delete",
+      "cancel": "Cancel",
+      "deleting": "Deleting...",
+      "success": "Article deleted successfully."
+    },
+    "report": {
+      "title": "Report",
+      "prompt": "Write the reason for reporting:",
+      "success": "Report sent successfully",
+      "alreadyReported": "You have already reported this theory!",
+      "error": "Error sending report"
+    },
+    "errors": {
+      "loadError": "Error loading theory",
+      "updateError": "Error updating theory",
+      "deleteError": "Error deleting theory",
+      "shareError": "Error sharing theory",
+      "saveError": "Error saving theory",
+      "confirmError": "Error confirming theory",
+      "rejectError": "Error rejecting theory",
+      "commentError": "Error loading comments",
+      "insufficientFunds": "Insufficient funds!",
+      "unknownError": "Unknown error"
+    }
+  },
+
+  "video": {
+    "loading": "Loading video...",
+    "error": "Error loading video",
+    "noThumbnail": "No thumbnail",
+    "untitled": "Untitled",
+    "views": "views",
+    "view": "view",
+    "comments": "Comments",
+    "comment": "comment",
+    "shares": "shares",
+    "share": "share",
+    "saves": "saves",
+    "save": "save",
+    "supports": "supports",
+    "support": "support",
+    "timeAgo": {
+      "justNow": "just now",
+      "secondsAgo": "a few seconds ago",
+      "minuteAgo": "a minute ago",
+      "minutesAgo": "{{count}} minutes ago",
+      "hourAgo": "an hour ago",
+      "hoursAgo": "{{count}} hours ago",
+      "dayAgo": "a day ago",
+      "daysAgo": "{{count}} days ago",
+      "weekAgo": "a week ago",
+      "weeksAgo": "{{count}} weeks ago",
+      "monthAgo": "a month ago",
+      "monthsAgo": "{{count}} months ago",
+      "yearAgo": "a year ago",
+      "yearsAgo": "{{count}} years ago",
+      "unknown": "unknown time"
+    },
+    "visibility": {
+      "private": "Private",
+      "withLink": "Link",
+      "public": "Public"
+    },
+    "stats": {
+      "views": "views",
+      "uploadTime": "uploaded",
+      "comments": "comments",
+      "saves": "saves",
+      "supports": "supports"
+    },
+    "actions": {
+      "support": "Support",
+      "supported": "Supported",
+      "comment": "Comment",
+      "share": "Share",
+      "save": "Save",
+      "saved": "Saved",
+      "copyLink": "Copy link",
+      "report": "Report",
+      "block": "Block user",
+      "unblock": "Unblock",
+      "edit": "Edit",
+      "delete": "Delete",
+      "more": "More",
+      "close": "Close"
+    },
+    "share": {
+      "title": "Share",
+      "searchPlaceholder": "Search accounts...",
+      "searching": "Searching accounts...",
+      "noResults": "No accounts found",
+      "send": "Send",
+      "cancel": "Cancel",
+      "shared": "Shared"
+    },
+    "block": {
+      "title": "Block users",
+      "searchPlaceholder": "Search accounts (@username or display name)",
+      "searching": "Searching accounts...",
+      "noResults": "No accounts found",
+      "block": "Block",
+      "unblock": "Unblock",
+      "blocked": "Blocked",
+      "blockedBadge": " (Blocked)",
+      "blockSuccess": "User @{{username}} has been blocked",
+      "unblockSuccess": "User @{{username}} has been unblocked",
+      "blockError": "Error blocking user",
+      "unblockError": "Error unblocking user"
+    },
+    "report": {
+      "prompt": "Write the reason for reporting:",
+      "success": "Report sent successfully",
+      "alreadyReported": "You have already reported this video!",
+      "error": "Error sending report"
+    },
+    "delete": {
+      "confirm": "Are you sure you want to delete this post?",
+      "success": "Post deleted successfully",
+      "error": "Error deleting post",
+      "removedFromCollaborators": "You are no longer a collaborator of this post"
+    },
+    "copyLink": {
+      "success": "Link copied!",
+      "error": "Error copying link"
+    },
+    "collaborators": {
+      "label": "collaborators:",
+      "count": "+{{count}} collaborators"
+    },
+    "additionalInfo": {
+      "postTime": "Post time:",
+      "saves": "Post saves:",
+      "views": "Views:"
+    },
+    "errors": {
+      "loadError": "Error loading video data",
+      "actionError": "Error performing action",
+      "saveError": "Error saving video",
+      "shareError": "Error sharing video",
+      "cancelShareError": "Error canceling share",
+      "blockError": "Error blocking user",
+      "unblockError": "Error unblocking user",
+      "reportError": "Error sending report",
+      "deleteError": "Error deleting post",
+      "copyError": "Error copying link"
+    }
+  },
+
+  "image": {
+    "loading": "Loading image...",
+    "loadingImage": "Loading image...",
+    "error": "Error loading image",
+    "noThumbnail": "No thumbnail",
+    "untitled": "Untitled",
+    "views": "views",
+    "view": "view",
+    "comments": "Comments",
+    "comment": "comment",
+    "shares": "shares",
+    "share": "share",
+    "saves": "saves",
+    "save": "save",
+    "supports": "supports",
+    "support": "support",
+    "timeAgo": {
+      "justNow": "just now",
+      "secondsAgo": "a few seconds ago",
+      "minuteAgo": "a minute ago",
+      "minutesAgo": "{{count}} minutes ago",
+      "hourAgo": "an hour ago",
+      "hoursAgo": "{{count}} hours ago",
+      "dayAgo": "a day ago",
+      "daysAgo": "{{count}} days ago",
+      "weekAgo": "a week ago",
+      "weeksAgo": "{{count}} weeks ago",
+      "monthAgo": "a month ago",
+      "monthsAgo": "{{count}} months ago",
+      "yearAgo": "a year ago",
+      "yearsAgo": "{{count}} years ago",
+      "unknown": "unknown time"
+    },
+    "visibility": {
+      "private": "Private",
+      "withLink": "Link",
+      "public": "Public"
+    },
+    "stats": {
+      "views": "views",
+      "uploadTime": "uploaded",
+      "comments": "comments",
+      "saves": "saves",
+      "supports": "supports"
+    },
+    "actions": {
+      "support": "Support",
+      "supported": "Supported",
+      "comment": "Comment",
+      "share": "Share",
+      "save": "Save",
+      "saved": "Saved",
+      "copyLink": "Copy link",
+      "report": "Report",
+      "block": "Block user",
+      "unblock": "Unblock",
+      "edit": "Edit",
+      "delete": "Delete",
+      "more": "More",
+      "close": "Close"
+    },
+    "share": {
+      "title": "Share",
+      "searchPlaceholder": "Search accounts...",
+      "searching": "Searching accounts...",
+      "noResults": "No accounts found",
+      "send": "Send",
+      "cancel": "Cancel",
+      "shared": "Shared"
+    },
+    "block": {
+      "title": "Block users",
+      "searchPlaceholder": "Search accounts (@username or display name)",
+      "searching": "Searching accounts...",
+      "noResults": "No accounts found",
+      "block": "Block",
+      "unblock": "Unblock",
+      "blocked": "Blocked",
+      "blockedBadge": " (Blocked)",
+      "blockSuccess": "User @{{username}} has been blocked",
+      "unblockSuccess": "User @{{username}} has been unblocked",
+      "blockError": "Error blocking user",
+      "unblockError": "Error unblocking user"
+    },
+    "report": {
+      "prompt": "Write the reason for reporting:",
+      "success": "Report sent successfully",
+      "alreadyReported": "You have already reported this image!",
+      "error": "Error sending report"
+    },
+    "delete": {
+      "confirm": "Are you sure you want to delete this post?",
+      "success": "Post deleted successfully",
+      "error": "Error deleting post",
+      "removedFromCollaborators": "You are no longer a collaborator of this post"
+    },
+    "copyLink": {
+      "success": "Link copied!",
+      "error": "Error copying link"
+    },
+    "collaborators": {
+      "label": "collaborators:",
+      "count": "+{{count}} collaborators"
+    },
+    "additionalInfo": {
+      "postTime": "Post time:",
+      "saves": "Post saves:",
+      "views": "Views:"
+    },
+    "errors": {
+      "loadError": "Error loading image data",
+      "actionError": "Error performing action",
+      "saveError": "Error saving image",
+      "shareError": "Error sharing image",
+      "cancelShareError": "Error canceling share",
+      "blockError": "Error blocking user",
+      "unblockError": "Error unblocking user",
+      "reportError": "Error sending report",
+      "deleteError": "Error deleting post",
+      "copyError": "Error copying link"
+    }
+  },
+
+  "exploreVideo": {
+    "loading": "Loading videos...",
+    "error": "Error loading videos",
+    "noMore": "No more videos",
+    "loadMore": "Load more",
+    "placeholder": {
+      "title": "Loading video...",
+      "description": "Please wait while the video loads"
+    }
+  },
+
+  "exploreImage": {
+    "loading": "Loading images...",
+    "error": "Error loading images",
+    "noMore": "No more images",
+    "loadMore": "Load more",
+    "placeholder": {
+      "title": "Loading image...",
+      "description": "Please wait while the image loads"
+    }
+  },
+
+  "comment": {
+    "loading": "Loading comments...",
+    "loadingComment": "Loading comment...",
+    "error": "Error loading comments",
+    "noComments": "No comments yet. Be the first to comment!",
+    "addComment": "Write a comment...",
+    "addReply": "Write a reply...",
+    "send": "Send",
+    "reply": "Reply",
+    "replies": "replies",
+    "showReplies": "Show {{count}} replies",
+    "loadMore": "Load more",
+    "loadingMore": "Loading...",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "pinned": "Pinned",
+    "like": "Like",
+    "unlike": "Unlike",
+    "liked": "Liked",
+    "edited": "(edited)",
+    "owner": "(Owner)",
+    "collaborator": "(Collaborator)",
+    "timeAgo": {
+      "justNow": "just now",
+      "secondsAgo": "a few seconds ago",
+      "minuteAgo": "a minute ago",
+      "minutesAgo": "{{count}} minutes ago",
+      "hourAgo": "an hour ago",
+      "hoursAgo": "{{count}} hours ago",
+      "dayAgo": "a day ago",
+      "daysAgo": "{{count}} days ago",
+      "weekAgo": "a week ago",
+      "weeksAgo": "{{count}} weeks ago",
+      "monthAgo": "a month ago",
+      "monthsAgo": "{{count}} months ago",
+      "yearAgo": "a year ago",
+      "yearsAgo": "{{count}} years ago",
+      "unknown": "unknown time"
+    },
+    "status": {
+      "connected": "Internet connected ✅",
+      "disconnected": "Internet disconnected ❌"
+    },
+    "deleteConfirm": "Are you sure you want to delete this comment?",
+    "pinSuccess": "Comment pinned successfully",
+    "unpinSuccess": "Comment unpinned successfully",
+    "pinError": "Error pinning comment",
+    "deleteError": "Error deleting comment",
+    "addError": "Error adding comment",
+    "editError": "Error editing comment",
+    "likeError": "Error performing action",
+    "connectionError": "Connection error"
+  },
+
+  "shoping": {
+    "loading": "Loading store...",
+    "storeName": "Store name:",
+    "storeDisplay": "Store display name:",
+    "storeOwner": "Store owner:",
+    "views": "Views:",
+    "productsCount": "Number of products:",
+    "createdTime": "Store creation time:",
+    "likes": "Likes:",
+    "noProducts": "🛍️ No products found.",
+    "editStore": "Edit store",
+    "back": "Back",
+    "timeAgo": {
+      "justNow": "just now",
+      "secondsAgo": "a few seconds ago",
+      "minuteAgo": "a minute ago",
+      "minutesAgo": "{{count}} minutes ago",
+      "hourAgo": "an hour ago",
+      "hoursAgo": "{{count}} hours ago",
+      "dayAgo": "a day ago",
+      "daysAgo": "{{count}} days ago",
+      "weekAgo": "a week ago",
+      "weeksAgo": "{{count}} weeks ago",
+      "monthAgo": "a month ago",
+      "monthsAgo": "{{count}} months ago",
+      "yearAgo": "a year ago",
+      "yearsAgo": "{{count}} years ago",
+      "invalid": "invalid time"
+    },
+    "errors": {
+      "loadError": "Error loading store data",
+      "likeError": "Error toggling like",
+      "viewError": "Error tracking view"
+    }
+  },
+
+  "product": {
+    "loading": "Loading product...",
+    "loadingImage": "Loading image...",
+    "error": "Error loading product",
+    "noThumbnail": "No thumbnail",
+    "untitled": "Untitled",
+    "free": "Free",
+    "price": "{{price}} somoni",
+    "views": "views",
+    "comments": "Comments",
+    "shares": "shares",
+    "saves": "saves",
+    "buys": "buys",
+    "buy": "Buy",
+    "bought": "Bought",
+    "save": "Save",
+    "saved": "Saved",
+    "share": "Share",
+    "edit": "Edit",
+    "deleteButton": "Delete",
+    "reportButton": "Report",
+    "copyLinkButton": "Copy link",
+    "blockButton": "Block user",
+    "block": "Block user",
+    "unblock": "Unblock",
+    "more": "More",
+    "close": "Close",
+    "timeAgo": {
+      "justNow": "just now",
+      "secondsAgo": "a few seconds ago",
+      "minuteAgo": "a minute ago",
+      "minutesAgo": "{{count}} minutes ago",
+      "hourAgo": "an hour ago",
+      "hoursAgo": "{{count}} hours ago",
+      "dayAgo": "a day ago",
+      "daysAgo": "{{count}} days ago",
+      "weekAgo": "a week ago",
+      "weeksAgo": "{{count}} weeks ago",
+      "monthAgo": "a month ago",
+      "monthsAgo": "{{count}} months ago",
+      "yearAgo": "a year ago",
+      "yearsAgo": "{{count}} years ago",
+      "unknown": "unknown time"
+    },
+    "productType": {
+      "book": "📚 Book",
+      "audio": "🎵 Audio",
+      "video": "🎬 Video",
+      "image": "🖼️ Image",
+      "software": "💻 Code",
+      "account": "👤 Account",
+      "program": "🎮 Program/Game",
+      "physical": "📦 Physical item"
+    },
+    "personalSales": "🛒 One-time sale",
+    "visibility": {
+      "private": "🔒 Private",
+      "withLink": "🔗 Link"
+    },
+    "accountForSale": "Account for sale: ",
+    "shops": "shops:",
+    "stats": {
+      "postTime": "Post time:",
+      "saves": "Product saves:",
+      "views": "Views:",
+      "buys": "Buys:"
+    },
+    "share": {
+      "title": "Share",
+      "searchPlaceholder": "Search accounts...",
+      "searching": "Searching accounts...",
+      "noResults": "No accounts found",
+      "send": "Send",
+      "cancel": "Cancel"
+    },
+    "block": {
+      "title": "Block users",
+      "searchPlaceholder": "Search accounts (@username or display name)",
+      "searching": "Searching accounts...",
+      "noResults": "No accounts found",
+      "block": "Block",
+      "unblock": "Unblock",
+      "blocked": "Blocked",
+      "blockedBadge": " (Blocked)",
+      "blockSuccess": "User @{{username}} has been blocked",
+      "unblockSuccess": "User @{{username}} has been unblocked"
+    },
+    "report": {
+      "prompt": "Write the reason for reporting:",
+      "success": "Report sent successfully",
+      "alreadyReported": "You have already reported this product!",
+      "error": "Error sending report"
+    },
+    "delete": {
+      "confirm": "Are you sure you want to delete this product?",
+      "success": "Product deleted successfully",
+      "error": "Error deleting product",
+      "removedFromCollaborators": "You are no longer a collaborator of this product"
+    },
+    "copyLink": {
+      "success": "Link copied!",
+      "error": "Error copying link"
+    },
+    "buy": {
+      "confirm": "Are you sure you want to buy this product?",
+      "insufficientFunds": "Insufficient funds!",
+      "alreadySold": "This product has already been sold!",
+      "success": "Product purchased successfully!",
+      "error": "Error buying product",
+      "fileDownloaded": "File downloaded successfully!",
+      "accountPasswordChange": "Account password changed and email removed. Purchase completed!",
+      "passwordChangeRequired": "To ensure your security, you must change the account password.",
+      "enterPassword": "Enter password",
+      "confirmPassword": "Confirm password",
+      "passwordsDoNotMatch": "Passwords do not match!",
+      "passwordLength": "Password must be between 8 and 30 characters!",
+      "bothPasswordsRequired": "Please enter both passwords!",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "ownerCannotBuy": "You are the owner of this product, cannot buy!",
+      "showQRToSeller": "Show this QR code to the seller to receive the product.",
+      "downloadQR": "Download QR Code",
+      "close": "Close",
+      "enterAddressTitle": "Enter Delivery Address",
+      "enterAddressPlaceholder": "City, street, house...",
+      "confirmAddress": "Confirm",
+      "addressRequired": "Please enter the address!",
+      "addressLabel": "Address:"
+    },
+    "errors": {
+      "loadError": "Error loading product data",
+      "actionError": "Error performing action",
+      "saveError": "Error saving product",
+      "shareError": "Error sharing product",
+      "cancelShareError": "Error canceling share",
+      "blockError": "Error blocking user",
+      "unblockError": "Error unblocking user",
+      "reportError": "Error sending report",
+      "deleteError": "Error deleting product",
+      "copyError": "Error copying link",
+      "buyError": "Error buying product",
+      "downloadError": "Error downloading file",
+      "passwordUpdateError": "Error updating password"
+    }
+  },
+
+  "exploreProduct": {
+    "loading": "Loading products...",
+    "error": "Error loading products",
+    "noMore": "No more products",
+    "loadMore": "Load more",
+    "placeholder": {
+      "title": "Loading product...",
+      "description": "Please wait while the product loads"
+    }
+  },
+
+  "supportedPosts": {
+    "title": "Supported Posts",
+    "images": "Images",
+    "videos": "Videos",
+    "loading": "Loading supported posts...",
+    "error": "Error loading supported posts",
+    "noMore": "No more supported posts",
+    "noImages": "No supported images",
+    "noVideos": "No supported videos",
+    "loadMore": "Load more",
+    "back": "Back",
+    "placeholder": {
+      "title": "Loading...",
+      "description": "Please wait while content loads"
+    },
+    "tabs": {
+      "images": "Images",
+      "videos": "Videos"
+    }
+  },
+
+  "savedPosts": {
+    "title": "Saved Posts",
+    "images": "Images",
+    "videos": "Videos",
+    "products": "Products",
+    "theories": "Theories",
+    "loading": "Loading saved posts...",
+    "error": "Error loading saved posts",
+    "noMore": "No more saved posts",
+    "noImages": "No saved images",
+    "noVideos": "No saved videos",
+    "noProducts": "No saved products",
+    "noTheories": "No saved theories",
+    "loadMore": "Load more",
+    "back": "Back",
+    "placeholder": {
+      "title": "Loading...",
+      "description": "Please wait while content loads"
+    },
+    "tabs": {
+      "images": "Images",
+      "videos": "Videos",
+      "products": "Products",
+      "theories": "Theories"
+    }
+  },
+
+  "reactionToTheories": {
+    "title": "Reactions to Theories",
+    "confirmed": "Confirmed Theories",
+    "rejected": "Rejected Theories",
+    "loading": "Loading theories...",
+    "error": "Error loading theories",
+    "noMore": "No more theories",
+    "noConfirmed": "No confirmed theories",
+    "noRejected": "No rejected theories",
+    "loadMore": "Load more",
+    "back": "Back",
+    "placeholder": {
+      "title": "Loading...",
+      "description": "Please wait while theories load"
+    },
+    "tabs": {
+      "confirmed": "Confirmed Theories",
+      "rejected": "Rejected Theories"
+    }
+  },
+
+  "purchasedProducts": {
+    "title": "Purchased Products",
+    "loading": "Loading purchased products...",
+    "error": "Error loading purchased products",
+    "noMore": "No more purchased products",
+    "noProducts": "No purchased products",
+    "loadMore": "Load more",
+    "back": "Back",
+    "placeholder": {
+      "title": "Loading...",
+      "description": "Please wait while products load"
+    }
+  },
+
+  "likedStores": {
+    "title": "Liked Stores",
+    "loading": "Loading liked stores...",
+    "error": "Error loading liked stores",
+    "noMore": "No more liked stores",
+    "noStores": "No liked stores",
+    "loadMore": "Load more",
+    "back": "Back",
+    "placeholder": {
+      "title": "Loading...",
+      "description": "Please wait while stores load"
+    }
+  },
+
+  "editProfile": {
+    "title": "Edit Profile",
+    "loading": "Loading data...",
+    "profileImage": "Profile Image",
+    "username": "Username",
+    "usernamePlaceholder": "Enter username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter password",
+    "confirmPasswordPlaceholder": "Confirm password",
+    "displayName": "Display Name",
+    "displayNamePlaceholder": "Enter display name (Optional)",
+    "update": "Update",
+    "updating": "Updating...",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "errors": {
+      "usernameRequired": "* Username cannot be empty!",
+      "usernameLength": "* Username must be between 5 and 15 characters!",
+      "usernameLetter": "* Username must contain at least one letter!",
+      "usernameStart": "* Username must start with a letter, number or _!",
+      "usernameDot": "* Username cannot start or end with a dot!",
+      "usernameDoubleDot": "* Username cannot contain double dots!",
+      "usernameChars": "* Username can only contain letters, numbers, _ and .!",
+      "passwordRequired": "* Password cannot be empty!",
+      "passwordLength": "* Password must be between 8 and 30 characters!",
+      "confirmPasswordRequired": "* Please confirm your password!",
+      "passwordMismatch": "* Passwords do not match!",
+      "imageError": "Image error: incorrect image format",
+      "fileSize": "* File size must not exceed 5MB!",
+      "fileType": "* Please select an image file only!",
+      "usernameExists": "❌ Username already exists",
+      "userNotFound": "❌ User not found",
+      "unknownError": "❌ An unknown error occurred",
+      "connectionErrorShort": "⛔️ Connection to server lost! Please check your internet.",
+      "requestTimeout": "⛔️ Request timeout! Server is not responding.",
+      "connectionErrorType": "Connection error",
+      "serverResponse": "Server returned a non-JSON response"
+    }
+  },
+
+  "commentsPosted": {
+    "title": "Comments",
+    "loading": "Loading comments...",
+    "noComments": "No comments found.",
+    "replyTo": "Reply to @{{username}}",
+    "edited": "(Edited)",
+    "viewComment": "View comment",
+    "loadMore": "Load more",
+    "loadingMore": "Loading...",
+    "allLoaded": "— All comments loaded ({{count}} comments) —",
+    "back": "Back",
+    "refresh": "Refresh",
+    "errors": {
+      "connectionError": "⛔️ Connection to server lost! Please check your internet.",
+      "loadError": "Error loading comments",
+      "commentDataError": "Error getting comment data"
+    },
+    "timeAgo": {
+      "justNow": "just now",
+      "secondsAgo": "a few seconds ago",
+      "minuteAgo": "a minute ago",
+      "minutesAgo": "{{count}} minutes ago",
+      "hourAgo": "an hour ago",
+      "hoursAgo": "{{count}} hours ago",
+      "dayAgo": "a day ago",
+      "daysAgo": "{{count}} days ago",
+      "weekAgo": "a week ago",
+      "weeksAgo": "{{count}} weeks ago",
+      "monthAgo": "a month ago",
+      "monthsAgo": "{{count}} months ago",
+      "yearAgo": "a year ago",
+      "yearsAgo": "{{count}} years ago",
+      "unknown": "unknown time"
+    }
+  },
+
+  "imageUploader": {
+    "title": "Create Post",
+    "editTitle": "Edit Post",
+    "back": "Back",
+    "loading": "Loading...",
+    "uploadProgress": "Uploading to server: {{progress}}%",
+    "processingProgress": "Processing image: {{progress}}%",
+    "imageCounter": "{{current}}/{{total}}",
+    "loadingImage": "Loading image...",
+    "selectImages": "Select images",
+    "processing": "Processing...",
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Enter post title",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter post description",
+      "visibility": "Post visibility:",
+      "public": "Public",
+      "private": "Only me",
+      "withLink": "Only with link",
+      "allowComments": "Allow comments",
+      "advertise": "Advertise post",
+      "advertisementNote": "For each view as an advertisement, 0.01 somoni will be charged.",
+      "advertisementCount": "Number of ad views",
+      "collaborate": "Add collaborators",
+      "selectedAccounts": "Selected accounts: {{count}}/10",
+      "post": "Post",
+      "update": "Update"
+    },
+    "collaboration": {
+      "searchPlaceholder": "Search accounts...",
+      "searching": "Searching...",
+      "noResults": "No accounts found",
+      "send": "Send",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "maxFileSize": "File must not exceed {{size}} MB!",
+      "maxImages": "You cannot upload more than 10 images!",
+      "noImages": "Please select an image!",
+      "selectImage": "Please select an image!",
+      "insufficientFunds": "Insufficient funds!",
+      "uploadFailed": "Upload failed",
+      "updateFailed": "Update failed",
+      "connectionError": "⛔️ Connection to server lost! Please check your internet.",
+      "linkCheckError": "Error checking link",
+      "invalidLink": "Invalid link",
+      "accessDenied": "You do not have access to this post (you are blocked)",
+      "postLoadError": "Error loading post",
+      "imageLoadError": "Error loading image",
+      "accountLoadError": "Error loading accounts",
+      "searchError": "Error searching accounts",
+      "webSocketError": "WebSocket error"
+    }
+  },
+
+  "productUploader": {
+    "title": "Create Product",
+    "editTitle": "Edit Product",
+    "back": "Back",
+    "loading": "Loading...",
+    "uploadProgress": "Uploading to server: {{progress}}%",
+    "processingProgress": "Processing image: {{progress}}%",
+    "imageCounter": "{{current}}/{{total}}",
+    "loadingImage": "Loading image...",
+    "selectImages": "Select product images",
+    "selectImagesNote": "Please select at least 3 images",
+    "processing": "Processing...",
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Enter product title",
+      "description": "Product description",
+      "descriptionPlaceholder": "Enter product description",
+      "price": "Price (in somoni)",
+      "pricePlaceholder": "Enter price",
+      "commission": "A 1% commission will be charged!",
+      "productType": "Product type:",
+      "selectType": "Select",
+      "types": {
+        "book": "Book",
+        "audio": "Audio",
+        "video": "Video",
+        "image": "Image",
+        "software": "Code",
+        "account": "Account",
+        "program": "Program/Game",
+        "physical": "Physical item"
+      },
+      "fileUpload": {
+        "book": "Select book",
+        "audio": "Select audio",
+        "video": "Select video",
+        "image": "Select image",
+        "software": "Select code",
+        "program": "Select program/game",
+        "select": "Select file"
+      },
+      "softwareNote": "You must upload the code of a program, game, or any project. You can upload it in its original format (e.g., .py) or as an archive (e.g., .zip).",
+      "programNote": "Programs and games for computers (Windows, Mac, Linux), phones (Android, iOS), and tablets. Executable files (.exe, .msi, .dmg, .apk, .ipa), archives (.zip, .rar), and other runnable formats are allowed.",
+      "uploadedFile": "Uploaded file: {{filename}}",
+      "allowComments": "Allow comments",
+      "personalSales": "Sell to only one buyer (not recommended)",
+      "advertise": "Promote post",
+      "advertisementNote": "0.01 somoni will be charged per ad impression.",
+      "advertisementCount": "Number of ad impressions",
+      "storeNote": "To sell your product, list it in multiple stores and remove it after it is sold. Store owners must accept your request for your product to appear in their store.",
+      "selectStore": "Select store",
+      "selectedStores": "Selected stores: {{count}}/10",
+      "submit": "Publish",
+      "update": "Update",
+      "uploading": "Uploading...",
+      "deliveryMethod": "Delivery method",
+      "pickup": "Pickup",
+      "courier": "Delivery",
+      "pickupAddress": "Pickup address",
+      "pickupAddressPlaceholder": "Enter full address...",
+      "pickupAddressNote": "The buyer will come to this address to pick up the product",
+      "courierAvailable": "Delivery available",
+      "courierNote": "The buyer can request delivery to receive the product",
+      "physicalProductName": "Physical Product Name",
+      "physicalProductPlaceholder": "Enter physical product name..."
+    },
+    "collaboration": {
+      "searchPlaceholder": "Search accounts",
+      "searching": "Searching...",
+      "noResults": "No accounts found",
+      "send": "Send",
+      "cancel": "Cancel"
+    },
+    "account": {
+      "title": "Account verification",
+      "username": "Username",
+      "password": "Password",
+      "email": "Email",
+      "verify": "Verify account",
+      "verificationCode": "Verification code",
+      "verifyCode": "Verify",
+      "verificationNote": "A verification code has been sent to {{email}}",
+      "infoNote": "If you did not receive the code, make sure your internet connection is working and try again.",
+      "selectedAccount": "Account: {{username}}",
+      "errors": {
+        "usernameRequired": "Please enter a username",
+        "passwordRequired": "Please enter a password",
+        "emailRequired": "Please enter an email",
+        "invalidUsername": "Invalid username!",
+        "invalidPassword": "Invalid password!",
+        "noEmail": "Your account does not have an email!",
+        "invalidEmail": "Invalid email!",
+        "noRequest": "Verification request not found or code is invalid.",
+        "codeExpired": "The verification code has expired.",
+        "userNotFound": "User not found."
+      }
+    },
+    "errors": {
+      "maxFileSize": "File size must not exceed {{size}} MB!",
+      "maxImages": "You cannot upload more than 10 images!",
+      "minImages": "Please select at least 3 images!",
+      "titleRequired": "Title cannot be empty!",
+      "descriptionRequired": "Product description cannot be empty!",
+      "priceRequired": "Please enter the product price!",
+      "invalidPrice": "Invalid price or more than 2 decimal places!",
+      "typeRequired": "Please select a product type!",
+      "fileRequired": "Please upload a product file!",
+      "storeRequired": "Please select at least one store to sell your product!",
+      "noImages": "Please select images!",
+      "selectImage": "Please select an image!",
+      "insufficientFunds": "Insufficient funds in your account!",
+      "uploadFailed": "Upload failed",
+      "updateFailed": "Update failed",
+      "connectionError": "⛔️ Connection to server lost! Please check your internet.",
+      "linkCheckError": "Error checking link",
+      "invalidLink": "Invalid link",
+      "accessDenied": "You do not have access to this post (you are blocked)",
+      "postLoadError": "Error loading product",
+      "imageLoadError": "Error loading image",
+      "storeLoadError": "Error loading stores",
+      "searchError": "Error searching stores",
+      "webSocketError": "WebSocket error",
+      "unknownError": "Unknown error",
+      "pickupAddressRequired": "Please enter an address",
+      "physicalProductNameRequired": "Please enter the physical product name!"
+    }
+  },
+
+  "shopUploader": {
+    "title": "Create Store",
+    "editTitle": "Edit Store",
+    "back": "Back",
+    "loading": "Loading store data...",
+    "uploadProgress": "Uploading: {{progress}}%",
+    "uploadNote": "Due to file processing and conversion to base64, the upload may start with a delay. It's normal, please be patient!",
+    "form": {
+      "selectImage": "Select store image",
+      "shopName": "Store name",
+      "shopNamePlaceholder": "Enter store name",
+      "displayName": "Display name",
+      "displayNamePlaceholder": "Enter display name(Optional)",
+      "shopData": "Store information",
+      "shopDataPlaceholder": "Enter store information",
+      "advertise": "Advertise post",
+      "advertisementNote": "For each view as an advertisement, 0.01 somoni will be charged.",
+      "advertisementCount": "Number of ad views",
+      "create": "Create store",
+      "update": "Update store"
+    },
+    "errors": {
+      "imageRequired": "* Please select a store image!",
+      "nameRequired": "* Store name cannot be empty!",
+      "nameInvalid": "* 3-30 characters, must contain at least one letter, A-Z, 0-9, _ and . (dot cannot be at start or end).",
+      "nameExists": "* Store name already exists!",
+      "displayRequired": "* Display name cannot be empty!",
+      "dataRequired": "* Store information cannot be empty!",
+      "adCountRequired": "* Number of views must be greater than 0!",
+      "insufficientFunds": "Insufficient funds!",
+      "networkError": "Network error"
+    }
+  },
+
+  "theoryUploader": {
+    "title": "Add New Theory",
+    "subtitle": "Enter your theory in detail",
+    "close": "Close",
+    "submit": "Add",
+    "submitting": "Adding theory...",
+    "progress": {
+      "title": "Adding Theory",
+      "starting": "Starting upload...",
+      "completed": "Theory added successfully!",
+      "error": "Error adding theory"
+    },
+    "sections": {
+      "0": {
+        "title": "0. Theory Name",
+        "placeholder": "Enter theory name..."
+      },
+      "1": {
+        "title": "1. Precise Definition",
+        "placeholder": "Enter detailed definition..."
+      },
+      "A": {
+        "title": "2. Basic Principles",
+        "icon": "architecture",
+        "titlePlaceholder": "Title",
+        "descriptionPlaceholder": "Description",
+        "addButton": "Add new entry"
+      },
+      "B": {
+        "title": "3. Scientific/Experimental/Logical Evidence",
+        "icon": "psychology",
+        "titlePlaceholder": "Title",
+        "descriptionPlaceholder": "Description",
+        "addButton": "Add new entry"
+      },
+      "C": {
+        "title": "4. Logical Conclusions/Independent Research",
+        "icon": "insights",
+        "titlePlaceholder": "Title",
+        "descriptionPlaceholder": "Description",
+        "addButton": "Add new entry"
+      },
+      "D": {
+        "title": "5. What the theory rejects",
+        "icon": "block",
+        "titlePlaceholder": "Title",
+        "descriptionPlaceholder": "Description",
+        "addButton": "Add new entry"
+      },
+      "E": {
+        "title": "6. Predictions",
+        "icon": "trending_up",
+        "titlePlaceholder": "Title",
+        "descriptionPlaceholder": "Description",
+        "addButton": "Add new entry"
+      },
+      "F": {
+        "title": "7. Limitations and Weaknesses",
+        "icon": "warning",
+        "titlePlaceholder": "Title",
+        "descriptionPlaceholder": "Description",
+        "addButton": "Add new entry"
+      },
+      "terms": {
+        "title": "8. Terminology",
+        "termPlaceholder": "Term",
+        "definitionPlaceholder": "Definition",
+        "addButton": "Add new term",
+        "termNumber": "Term #{{number}}"
+      },
+      "relationships": {
+        "title": "9. Relationships with other theories",
+        "compatible": "Compatible:",
+        "compatiblePlaceholder": "Theories compatible with this theory",
+        "opposing": "Opposing:",
+        "opposingPlaceholder": "Theories opposing this theory",
+        "stronger": "Stronger than:",
+        "strongerPlaceholder": "Theories this theory is stronger than"
+      },
+      "additional": {
+        "title": "10. Additional Information",
+        "placeholder": "Additional information about the theory"
+      },
+      "advertisement": {
+        "checkbox": "Advertise theory",
+        "note": "For each view as an advertisement, 0.01 somoni will be charged.",
+        "countPlaceholder": "Number of ad views"
+      }
+    },
+    "errors": {
+      "theoryNameRequired": "Please enter theory name",
+      "definitionRequired": "Please enter precise definition",
+      "compatibleRequired": "Please enter compatible theories",
+      "opposingRequired": "Please enter opposing theories",
+      "strongerRequired": "Please enter theories this theory is stronger than",
+      "additionalInfoRequired": "Please enter additional information",
+      "sectionTitleRequired": "Please enter title {{section}}{{number}} in section '{{sectionName}}'",
+      "termBothRequired": "For term #{{number}} both term and definition must be entered",
+      "termFirstRequired": "For term #1 both term and definition must be entered",
+      "insufficientFunds": "Insufficient funds!",
+      "submitError": "Error adding theory: {{message}}",
+      "progressError": "Error in starting progress",
+      "unknownError": "Unknown error"
+    }
+  },
+
+  "videoUploader": {
+    "title": "Create Video Post",
+    "editTitle": "Edit Video Post",
+    "back": "Back",
+    "loading": "Loading...",
+    "uploadProgress": "Uploading to server: {{progress}}%",
+    "processingProgress": "Processing file: {{progress}}%",
+    "uploadNote": "Due to file processing and conversion to base64, the upload may start with a delay. Please be patient!",
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Enter post title",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter post description",
+      "visibility": "Post visibility:",
+      "public": "Public",
+      "private": "Only me",
+      "withLink": "Only with link",
+      "allowComments": "Allow comments",
+      "advertise": "Advertise post",
+      "advertisementNote": "For each view as an advertisement, 0.01 somoni will be charged.",
+      "advertisementCount": "Number of ad views",
+      "collaborate": "Add collaborators",
+      "selectedAccounts": "Selected accounts: {{count}}/10",
+      "post": "Post",
+      "update": "Update",
+      "uploading": "Uploading... {{progress}}%"
+    },
+    "video": {
+      "select": "Select video",
+      "selectThumbnail": "Select thumbnail",
+      "selectedVideos": "Selected videos ({{count}}/10):",
+      "noThumbnail": "No thumbnail selected",
+      "processing": "Processing...",
+      "deleteSelected": "Delete selected ({{count}})",
+      "videoRequired": "Please select a video!",
+      "thumbnailRequired": "Please select a thumbnail image!",
+      "maxSize": "Video must not exceed {{size}} GB!",
+      "maxCount": "You cannot upload more than 10 videos!",
+      "noSelection": "No videos selected!",
+      "thumbnailMaxSize": "Thumbnail must not exceed 10 MB!",
+      "thumbnailInvalidType": "Please select an image file!",
+      "thumbnailLoadError": "Error reading file"
+    },
+    "collaboration": {
+      "searchPlaceholder": "Search accounts...",
+      "searching": "Searching...",
+      "noResults": "No accounts found",
+      "send": "Send",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "insufficientFunds": "Insufficient funds!",
+      "uploadFailed": "Upload failed",
+      "updateFailed": "Update failed",
+      "connectionError": "⛔️ Connection to server lost! Please check your internet.",
+      "linkCheckError": "Error checking link",
+      "invalidLink": "Invalid link",
+      "accessDenied": "You do not have access to this post (you are blocked)",
+      "postLoadError": "Error loading post",
+      "accountLoadError": "Error loading accounts",
+      "searchError": "Error searching accounts",
+      "webSocketError": "WebSocket error",
+      "unknownError": "Unknown error"
+    }
+  },
+
+  "account": {
+    "loading": "Please wait...",
+    "userNotFound": "User not found",
+    "back": "Back",
+    "createPost": "Create post",
+    "menu": {
+      "saved": "Saved",
+      "supported": "Supported",
+      "comments": "Comments posted",
+      "purchased": "Purchased",
+      "likedStores": "Liked stores",
+      "reactions": "Reactions to Theories",
+      "switchAccount": "Switch account",
+      "articles": "Articles",
+      "language": "Language"
+    },
+    "profile": {
+      "follow": "Follow",
+      "unfollow": "Unfollow",
+      "message": "Message",
+      "donate": "Donate",
+      "editProfile": "Edit profile",
+      "posts": "Posts",
+      "followers": "Followers",
+      "following": "Following",
+      "balance": "Balance",
+      "donatePrompt": "Enter amount you want to donate:"
+    },
+    "tabs": {
+      "videos": "Videos ({{count}})",
+      "images": "Images ({{count}})",
+      "articles": "Articles ({{count}})",
+      "products": "Products ({{count}})",
+      "stores": "Stores ({{count}})",
+      "theories": "Theories ({{count}})"
+    },
+    "noPosts": {
+      "videos": "🎥 No videos found.",
+      "images": "🖼️ No images found.",
+      "articles": "📝 No articles found.",
+      "products": "🛍️ No products found.",
+      "stores": "🏪 No stores found.",
+      "theories": "🧩 No theories found.",
+      "default": "Nothing found."
+    },
+    "modals": {
+      "followers": "Followers ({{count}})",
+      "following": "Following ({{count}})",
+      "search": {
+        "followers": "Search followers...",
+        "following": "Search following...",
+        "noResults": "No matching {{type}} found.",
+        "enterText": "Enter text to search.",
+        "cancel": "Cancel search"
+      },
+      "noFollowers": "No followers found.",
+      "noFollowing": "You are not following anyone.",
+      "loading": "Loading...",
+      "endMessage": "That's all {{type}}"
+    },
+    "balance": {
+      "add": "Add balance",
+      "withdraw": "Withdraw",
+      "addModal": {
+        "title": "Add balance",
+        "walletNumber": "Wallet number:",
+        "phoneOrCard": "Your phone or card number",
+        "instructions": "Instructions:",
+        "instruction1": "You must send money to my HUMO number",
+        "instruction2": "Send any amount to my Humo Online number",
+        "instruction3": "Enter the phone or card number you used to send money",
+        "instruction4": "Press the button",
+        "instruction5": "Will be confirmed within 24 hours",
+        "submit": "Add balance",
+        "confirmMessage": "ℹ️ Due to the lack of a universal wallet, funds will be kept in a personal account.\n\nDo you agree and want to send a request?",
+        "success": "✅ Request sent successfully!",
+        "duplicateError": "❌ You cannot send two balance addition requests at the same time"
+      },
+      "withdrawModal": {
+        "title": "Withdraw money",
+        "amountPlaceholder": "Amount",
+        "cardPlaceholder": "Card number",
+        "submit": "Withdraw",
+        "confirm": "Are you sure you want to withdraw {{amount}} somoni?",
+        "phone": "Phone: {{phone}}",
+        "yes": "Yes",
+        "no": "No",
+        "success": "✅ Request to withdraw {{amount}} somoni sent!",
+        "insufficientFunds": "Amount exceeds your balance!",
+        "invalidAmount": "Invalid amount or more than 2 decimal places!",
+        "fillAllFields": "Please fill all fields!",
+        "invalidPhone": "Invalid phone or card number!",
+        "duplicateError": "❌ You cannot send two withdrawal requests at the same time!"
+      },
+      "transfer": {
+        "prompt": "Enter the amount:",
+        "success": "You sent {{amount}} somoni to @{{username}} ✅",
+        "insufficientFunds": "Insufficient funds!",
+        "error": "Error while transferring money",
+
+        "confirm": "You are about to send {{amount}} somoni.\nCommission: {{commission}} somoni (1%)\nTotal deduction: {{total}} somoni\n\nDo you confirm?",
+        "successFull": "✅ {{amount}} somoni successfully sent\nCommission: {{commission}} somoni\nRecipient: @{{username}}"
+      }
+    },
+    "errors": {
+      "userNotFound": "User not found",
+      "transferError": "Error transferring money",
+      "generalError": "An error occurred"
+    },
+    "report": {
+      "prompt": "Write the reason for reporting:",
+      "success": "Report sent successfully",
+      "alreadyReported": "You have already reported this account!",
+      "error": "Error sending report"
+    }
+  },
+
+  "app": {
+    "loading": "Please wait...",
+    "connecting": "Connecting to the server...",
+    "back": "Back",
+    "auth": {
+      "errors": {
+        "connection_error": "Connection error. Please check your internet connection.",
+        "timeout": "Server is not responding. Please try again later.",
+        "server_error": "Server error. Please try again later.",
+        "failed_to_fetch_user_info": "Failed to fetch user information.",
+        "default": "An error occurred. Please try again."
+      },
+      "retry_button": "Retry",
+      "retry_attempt": "Attempt {{count}} of {{max}}"
+    },
+    "errors": {
+      "storeNotFound": "Store not found",
+      "storeError": "Error loading store",
+      "videoBlocked": "Video is blocked",
+      "videoWrongLink": "Invalid video link",
+      "videoError": "Error loading video",
+      "imageBlocked": "Image is blocked",
+      "imageWrongLink": "Invalid image link",
+      "imageError": "Error loading image",
+      "productBlocked": "Product is blocked",
+      "productWrongLink": "Invalid product link",
+      "productNotInStore": "Product not available in this store",
+      "productNotFound": "Product not found",
+      "productError": "Error loading product",
+      "theoryBlocked": "Theory is blocked",
+      "theoryWrongLink": "Invalid theory link",
+      "theoryNotFound": "Theory not found",
+      "theoryError": "Error loading theory",
+      "articleError": "Error loading article",
+      "pageNotFound": "Page not found",
+      "pageNotFoundDesc": "The page you are looking for does not exist."
+    },
+    "createPost": {
+      "title": "Create Post",
+      "types": {
+        "image": "Image",
+        "video": "Video",
+        "product": "Product",
+        "shop": "Shop",
+        "theory": "Theory",
+        "article": "Article"
+      }
+    },
+    "banned": {
+      "title": "Your account has been suspended",
+      "description": "Your account has been temporarily or permanently suspended by Sanjar. If you have any questions or concerns, please contact us at the email below:",
+      "button": "Understood",
+      "email_label": "Contact email"
+    }
+  },
+
+  "randomAccount": {
+    "title": "Account Created Successfully!",
+    "saveCredentials": "⚠️ SAVE YOUR CREDENTIALS - They will NOT be shown again!",
+    "loseWarning": "If you lose these credentials, your account cannot be recovered!",
+    "copyAndContinue": "📋 Copy & Continue",
+    "copiedAndContinuing": "✅ Copied! Continuing...",
+    "downloadOnly": "Download .txt file only",
+    "downloading": "Downloading...",
+    "fileSaved": "A multilingual .txt file with your credentials will be downloaded automatically",
+    "fileTitle": "ANYVOICE ACCOUNT CREDENTIALS",
+    "fileWarning": "Save these credentials in a safe place!",
+    "fileWarning2": "You will NOT be able to recover them if lost.",
+    "createdAt": "Created",
+    "labels": {
+      "username": "USERNAME",
+      "password": "PASSWORD",
+      "recoveryCode": "RECOVERY CODE"
+    }
+  },
+
+  "article": {
+    "readFull": "Read full article",
+    "writtenBy": "Written by {{name}}",
+    "unknownAuthor": "Unknown author",
+    "readingTime": "{{minutes}} min read",
+    "views": "views",
+    "share": "Share",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteArticle": "Delete Article",
+    "confirmDelete": "Are you sure you want to delete this article?",
+    "deleting": "Deleting...",
+    "cancel": "Cancel",
+    "shareArticle": "Share Article",
+    "searchUsers": "Search users...",
+    "searching": "Searching...",
+    "noUsersFound": "No users found",
+    "send": "Send",
+    "shareSuccess": "Article shared successfully!",
+    "shareError": "Error sharing article",
+    "shareCancelled": "Share cancelled",
+    "close": "Close",
+    "articleTitle": "Title",
+    "articleTitlePlaceholder": "Enter article title...",
+    "articleSummary": "Summary",
+    "articleSummaryPlaceholder": "Enter a short summary...",
+    "articleContent": "Content",
+    "articleContentPlaceholder": "Write your article content here...",
+    "addImages": "Add images",
+    "uploadingImage": "Uploading image...",
+    "uploading": "Uploading:",
+    "imagePreview": "Preview",
+    "authorName": "Author name",
+    "authorNamePlaceholder": "Enter the author's full name",
+    "authorNameHint": "This will be displayed as the author of the article",
+    "createArticle": "Create New Article",
+    "editArticle": "Edit Article",
+    "submit": "Publish",
+    "creating": "Creating...",
+    "submitting": "Saving...",
+    "error": "An error occurred",
+    "noArticles": "No articles found",
+    "edited": "Edited: ",
+    "comments": "Comments",
+    "showComments": "Show Comments",
+    "searchUsersPlaceholder": "Search for an account to send a post to.",
+    "deleted":"Article deleted",
+    "reportButton": "Report",
+    
+    "advertisement": "📢 Promote this article (paid promotion)",
+    "advertisementWarning": "⚠️ Note: Promoting your article will cost money. The amount you enter will be deducted from your balance. Higher amounts mean better visibility and more reach.",
+    "advertisementCountLabel": "Desired number of impressions (100 impressions = 1 TJS)",
+    "advertisementCountPlaceholder": "Enter amount (e.g., 100, 500, 1000, 5000)",
+    "advertisementCost": "💰 Cost",
+    "advertisementConfirm": "You will pay {{cost}} TJS for {{amount}} impressions of this article. Continue?",
+    
+    "timeAgo": {
+      "justNow": "just now",
+      "secondsAgo": "a few seconds ago",
+      "minuteAgo": "a minute ago",
+      "minutesAgo": "{{count}} minutes ago",
+      "hourAgo": "an hour ago",
+      "hoursAgo": "{{count}} hours ago",
+      "dayAgo": "a day ago",
+      "daysAgo": "{{count}} days ago",
+      "weekAgo": "a week ago",
+      "weeksAgo": "{{count}} weeks ago",
+      "monthAgo": "a month ago",
+      "monthsAgo": "{{count}} months ago",
+      "yearAgo": "a year ago",
+      "yearsAgo": "{{count}} years ago",
+      "unknown": "unknown time"
+    },
+
+    "success": {
+      "deleted": "Article deleted successfully",
+      "created": "Article created successfully",
+      "updated": "Article updated successfully"
+    },
+    
+    "errors": {
+      "titleRequired": "Title is required",
+      "summaryRequired": "Summary is required",
+      "contentRequired": "Content is required",
+      "authorNameRequired": "Author name is required",
+      "advertisementCountRequired": "Please enter the number of impressions",
+      "insufficientFunds": "Insufficient balance for promotion. Please add funds to your account.",
+      "createError": "Error creating article",
+      "updateError": "Error updating article",
+      "deleteError": "Error deleting article",
+      "imageTooLarge": "Image too large (max 5MB)",
+      "tooManyImages": "Maximum 10 images allowed"
+    },
+
+    "report": {
+      "prompt": "Write the reason for reporting:",
+      "success": "Report sent successfully",
+      "alreadyReported": "You have already reported this article!",
+      "error": "Error sending report"
+    }
+  },
+
+  "savedLikedArticles": {
+    "back": "Back",
+    "error": "Error loading articles",
+    "tabs": {
+      "saved": "Saved Articles",
+      "liked": "Liked Articles"
+    },
+    "noSaved": "No saved articles yet",
+    "noLiked": "No liked articles yet"
+  },
+
+  "explore": {
+    "video": "Video",
+    "image": "Image",
+    "article": "Article"
+  }
+}

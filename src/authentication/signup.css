@@ -1,0 +1,1066 @@
+.signup-container {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: transparent;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  z-index: 999;
+  padding: 10px;
+}
+
+.back-button:hover {
+  opacity: 0.8;
+}
+
+.signup-background,
+.verification-background {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-row,
+.verification-row {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-form,
+.verification-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* Random Account Banner */
+.random-account-banner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.random-icon {
+  font-size: 1.5rem;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Password Input Wrapper */
+.password-input-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.password-input {
+  padding-right: 45px !important;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+  z-index: 2;
+  width: 32px;
+  height: 32px;
+}
+
+.password-toggle-btn:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Regenerate Button */
+.regenerate-btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #555;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.regenerate-btn:hover {
+  background: #e0e0e0;
+  border-color: #ccc;
+  color: #333;
+}
+
+.regenerate-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Profile Image Styles */
+.profile-image-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.profile-image:hover {
+  opacity: 0.8;
+}
+
+/* Input Styles */
+.signup-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+.signup-input:focus {
+  outline: none;
+  border-color: #2196F3;
+}
+
+.signup-input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+/* Date Picker Styles - Fixed */
+.date-picker-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  backdrop-filter: blur(5px);
+}
+
+.date-picker-dialog {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 450px;
+  width: 80%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: datePickerFadeIn 0.3s ease-out;
+}
+
+@keyframes datePickerFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.date-picker-header {
+  margin-bottom: 25px;
+  text-align: center;
+  position: relative;
+}
+
+.date-picker-header h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.date-picker-body {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.date-picker {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+  background-color: #f8f9fa;
+}
+
+.date-picker:focus {
+  outline: none;
+  border-color: #2196F3;
+}
+
+.date-picker-footer {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.date-picker-button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.2s;
+  min-width: 150px;
+}
+
+.date-picker-button:hover {
+  background-color: #1976D2;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(33, 150, 243, 0.3);
+}
+
+.date-picker-button:active {
+  transform: translateY(0);
+}
+
+/* Disable background clicks */
+.date-picker-overlay {
+  pointer-events: all;
+}
+
+.date-picker-dialog {
+  pointer-events: all;
+}
+
+/* Button Styles */
+.signup-button,
+.verification-button {
+  width: 100%;
+  background-color: #2196F3;
+  color: white;
+  font-size: 1rem;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-button:hover:not(:disabled),
+.verification-button:hover:not(:disabled) {
+  background-color: #1976D2;
+}
+
+.signup-button:disabled,
+.verification-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Login Prompt */
+.login-prompt {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.login-link {
+  color: #1877F2;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Verification Page Styles */
+.verification-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+}
+
+.verification-info {
+  word-wrap: break-word;
+  max-width: 280px;
+  margin: 0 auto 20px;
+  font-size: 0.9rem;
+}
+
+.verification-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.verification-note {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 15px;
+  line-height: 1.4;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin: -5px 0 10px 0;
+  text-align: left;
+  width: 100%;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #2196F3;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Scrollbar Styling */
+.signup-form::-webkit-scrollbar,
+.verification-form::-webkit-scrollbar {
+  width: 6px;
+}
+
+.signup-form::-webkit-scrollbar-track,
+.verification-form::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.signup-form::-webkit-scrollbar-thumb,
+.verification-form::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.signup-form::-webkit-scrollbar-thumb:hover,
+.verification-form::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Recovery Code Popup Styles */
+.recovery-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  animation: fadeIn 0.3s ease;
+}
+
+.recovery-popup {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-radius: 20px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: slideUp 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.recovery-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.recovery-popup-header h2 {
+  color: #ff6b6b;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.recovery-popup-close {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.recovery-popup-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.recovery-popup-content {
+  padding: 24px;
+}
+
+.recovery-warning {
+  background: rgba(255, 107, 107, 0.15);
+  color: #ff6b6b;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  border-left: 3px solid #ff6b6b;
+}
+
+.recovery-info {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.recovery-code-container {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.recovery-code-display {
+  background: #0a0a0a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+}
+
+.recovery-code-display code {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #4ecdc4;
+  font-family: 'Monaco', 'Courier New', monospace;
+}
+
+.recovery-copy-button {
+  background: #4ecdc4;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #1a1a2e;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.9rem;
+}
+
+.recovery-copy-button:hover {
+  background: #45b7b0;
+  transform: scale(1.02);
+}
+
+.recovery-security-note {
+  background: rgba(78, 205, 196, 0.1);
+  color: #4ecdc4;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}
+
+.recovery-instruction {
+  color: #aaa;
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+  line-height: 1.4;
+}
+
+.recovery-confirm-button {
+  width: 100%;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.recovery-confirm-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(255, 107, 107, 0.3);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Human Verification Checkbox Styles */
+.verification-checkbox-container {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.verification-checkbox-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #333;
+  user-select: none;
+}
+
+.verification-checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: all 0.2s;
+}
+
+.verification-checkbox-label:hover .checkmark {
+  border-color: #2196F3;
+}
+
+.verification-checkbox-label input:checked ~ .checkmark {
+  background-color: #2196F3;
+  border-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.verification-checkbox-label input:checked ~ .checkmark:after {
+  display: block;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox-text {
+  font-weight: 500;
+  max-width: 200px;
+  text-align: start;
+}
+
+.verified-badge {
+  color: #4CAF50;
+  font-size: 0.85rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Verification Modal Styles */
+.verification-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  animation: fadeIn 0.3s ease;
+}
+
+.verification-modal-container {
+  background: white;
+  border-radius: 20px;
+  max-width: 700px;
+  width: 95%;
+  max-height: 90vh;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: slideUp 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.verification-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid #eee;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.verification-modal-header h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.verification-modal-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.verification-modal-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.verification-modal-body {
+  padding: 24px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.verification-instruction {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.target-emojis-display {
+  background: #f0f0f0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.target-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.target-emojis {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.target-emoji {
+  font-size: 2.5rem;
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-width: 60px;
+  text-align: center;
+}
+
+.emoji-grid-container {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.emoji-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.emoji-item {
+  aspect-ratio: 1;
+  font-size: 1.5rem;
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  padding: 4px;
+}
+
+.emoji-item:hover:not(:disabled) {
+  transform: scale(1.1);
+  border-color: #2196F3;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.3);
+}
+
+.emoji-item.selected {
+  border-color: #2196F3;
+  background: #e3f2fd;
+  opacity: 0.7;
+}
+
+.emoji-item.selected.correct {
+  border-color: #4CAF50;
+  background: #e8f5e9;
+}
+
+.emoji-item:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.selected-emojis-display {
+  background: #f0f0f0;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.selected-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.selected-emojis {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.selected-emoji {
+  font-size: 2rem;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  min-width: 50px;
+  text-align: center;
+  border: 2px solid #2196F3;
+}
+
+.selected-emoji.empty {
+  border: 2px dashed #ccc;
+  color: #ccc;
+  background: transparent;
+}
+
+.attempts-counter {
+  text-align: center;
+  margin-top: 15px;
+  color: #ff6b6b;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Success and Failure Messages */
+.verification-success-message,
+.verification-failure-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  animation: fadeIn 0.3s ease;
+}
+
+.success-content,
+.failure-content {
+  text-align: center;
+  padding: 30px;
+}
+
+.success-icon,
+.failure-icon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.success-content p {
+  color: #4CAF50;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.failure-content p {
+  color: #f44336;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Scrollbar for emoji grid */
+.emoji-grid-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.emoji-grid-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.emoji-grid-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.emoji-grid-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .emoji-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  
+  .emoji-item {
+    font-size: 1.2rem;
+  }
+  
+  .target-emoji {
+    font-size: 2rem;
+    min-width: 50px;
+  }
+  
+  .verification-modal-container {
+    width: 98%;
+  }
+}
+
+/* Notification for wrong emoji selection */
+.verification-notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #ff6b6b;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 10001;
+  opacity: 0;
+  transform: translateX(400px);
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.verification-notification.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Refresh button in verification modal */
+.target-emojis-display {
+  position: relative;
+  background: #f0f0f0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.verification-refresh-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+  width: 42px;
+  height: 42px;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #555;
+  transition: all 0.2s ease;
+}
+
+.verification-refresh-button:hover {
+  background: #e3f2fd;
+  border-color: #2196F3;
+  color: #2196F3;
+  transform: scale(1.05);
+}
+
+/* Make modal close on overlay click */
+.verification-modal-overlay {
+  cursor: pointer;
+}
+
+.verification-modal-container {
+  cursor: default;
+}
+
+.target-emoji.not-found {
+  opacity: 0.35;
+  filter: grayscale(100%);
+  border: 2px dashed #bbb;
+  background: #f5f5f5;
+}
+
+.target-emoji.found {
+  opacity: 1;
+  filter: none;
+  border: none;
+  background: white;
+}
+
+/* Terms Checkbox Styles */
+.terms-link {
+  color: #1976d2;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.terms-link:hover {
+  color: #42a5f5;
+  text-decoration: underline;
+}

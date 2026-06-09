@@ -1,0 +1,571 @@
+.comment-avatar {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.comment-avatar img,
+.comment-avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e0e0e0;
+}
+
+.avatar-placeholder {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 12px;
+}
+
+.add-comment-header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.current-user-avatar {
+    margin-right: 3px;
+    flex-shrink: 0;
+}
+
+.current-user-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007bff;
+}
+
+.send-comment-button {
+    background: linear-gradient(135deg, #10b981, #3b82f6);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.send-comment-button:hover:not(:disabled) {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.send-comment-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.add-comment-textarea {
+    flex: 1;
+}
+
+.add-comment-textarea textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+/* Дигар стилҳо монанд бо коди қаблӣ */
+.comments-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #03030303;
+}
+
+.add-comment-section {
+    padding: 3px;
+    border-bottom: 1px solid #eee;
+}
+
+.submit-comment-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+    align-self: flex-end;
+}
+
+.submit-comment-btn:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.submit-comment-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.comments-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.owner-badge {
+    color: #ff6b00;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.comment-time {
+    color: #666;
+    font-size: 11px;
+}
+
+.edited-badge {
+    color: #888;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.comment-text {
+    margin-bottom: 8px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.comment-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.comment-actions button {
+    background: none;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.like-button {
+    color: #666;
+}
+
+.like-button.liked {
+    color: #e74c3c;
+}
+
+.reply-button {
+    color: #28a745;
+}
+
+.edit-button {
+    color: #6c757d;
+}
+
+.delete-button {
+    color: #dc3545;
+}
+
+.reply-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.reply-actions button {
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.reply-actions button:first-child {
+    background-color: #28a745;
+    color: white;
+}
+
+.reply-actions button:last-child {
+    background-color: #6c757d;
+    color: white;
+}
+
+.replies-section {
+    margin-top: 0px;
+}
+
+.edit-comment-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    z-index: 1000;
+    min-width: 300px;
+}
+
+.edit-comment-modal h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.edit-comment-modal textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.edit-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.edit-actions button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-actions button:first-child {
+    background-color: #007bff;
+    color: white;
+}
+
+.edit-actions button:last-child {
+    background-color: #6c757d;
+    color: white;
+}
+
+.comments-loading,
+.comments-error,
+.no-comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 78vh;
+    text-align: center;
+    color: #666;
+}
+
+.loading-comment-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 10px;
+}
+
+.loading-comment-spinner-small {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 8px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.load-more-comment-container {
+    text-align: center;
+    padding: 8px 0;
+}
+
+.load-more-comment-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.load-more-comment-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.comment-item {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.reply-item {
+    margin-top: 10px;
+    border-left: 3px solid #e0e0e0;
+    padding-left: 0px;
+}
+
+.reply-item .comment-item {
+    box-shadow: none;
+}
+
+/* Барои ҷавобҳои дарахтӣ */
+.nested-comment {
+    margin-bottom: 0px;
+    padding: 10px 0px 0px 0px;
+    background-color: #ffffff;
+    margin-left: -50px;
+}
+
+.replies-list {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.show-replies-btn {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.show-replies-btn:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Стил барои комментҳои пиншуда */
+.pinned-comments-section {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+
+.pinned-comments-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pinned-comments-header h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    margin: 0;
+}
+
+.pinned-comment {
+    background-color: #fff9e6;
+    border-left: 3px solid #ffcc00;
+    padding-left: 8px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.pinned-badge {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: #ffcc00;
+    color: #333;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Кнопкаи пин кардан */
+.pin-button {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.pin-button:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.pin-button.pinned {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.pin-button.pinned:hover {
+    background-color: #ff9900;
+}
+
+.pin-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Стилҳои таҳрири дар ҷои коммент */
+.edit-comment-in-place {
+    margin: 10px 0;
+}
+
+.edit-textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+    min-height: 80px;
+}
+
+.edit-in-place-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.save-edit-btn {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.save-edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.cancel-edit-btn {
+    padding: 6px 12px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.cancel-edit-btn:hover {
+    background-color: #545b62;
+}
+
+/* Мувозинати дигар элементҳо ҳангоми таҳрир */
+.comment-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.comment-item.editing {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Стилҳои нав барои комменти интихобшуда */
+.selected-comment {
+    background-color: rgba(255, 243, 205, 0.3) !important;
+    border: 2px dashed #ffc107;
+    border-radius: 8px;
+    animation: pulse-highlight 2s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.selected-comment-badge {
+    background-color: #ffc107;
+    color: #000;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.selected-comment-wrapper {
+    margin-bottom: 20px;
+}
+
+.selected-comment-loading {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 243, 205, 0.3);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 2px dashed #ffc107;
+}
+
+.selected-comment-loading p {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Аниматсияи флеш барои комменти нав */
+@keyframes pulse-highlight {
+    0% {
+        background-color: rgba(255, 243, 205, 0);
+        box-shadow: 0 0 0 0 rgba(255, 193, 7, 0.7);
+    }
+    50% {
+        background-color: rgba(255, 243, 205, 0.7);
+        box-shadow: 0 0 20px 10px rgba(255, 193, 7, 0.4);
+    }
+    100% {
+        background-color: rgba(255, 243, 205, 0.3);
+        box-shadow: 0 0 0 0 rgba(255, 193, 7, 0);
+    }
+}
