@@ -506,12 +506,11 @@ const SignUp = ({ backendUrl }) => {
   };
 
   // Handle close popup and redirect to login
-  const handleClosePopup = () => {
-    // Эҷоди файл барои боргирӣ
-    const downloadRecoveryFile = () => {
-      const siteName = "AnyVoice"; // Номи сайти худро иваз кунед
-      const fileContent = `=== ${siteName} - Recovery Code ===
-      
+  const downloadRecoveryFile = () => {
+    const siteName = "AnyVoice";
+
+    const fileContent = `=== ${siteName} - Recovery Code ===
+    
   Username: ${tempUsername}
   Recovery Code: ${recoveryCode}
 
@@ -519,28 +518,35 @@ const SignUp = ({ backendUrl }) => {
   This code is required to recover your account if you forget your password.
   Date: ${new Date().toLocaleString()}
 
-  --- Please do not share this code with anyone ---
-  `;
-      
-      const blob = new Blob([fileContent], { type: 'text/plain;charset=utf-8' });
-      const link = document.createElement('a');
-      const url = URL.createObjectURL(blob);
-      link.href = url;
-      link.download = `${siteName.toLowerCase()}_recovery_code_${tempUsername}.txt`;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      URL.revokeObjectURL(url);
-    };
+  --- Please do not share this code with anyone ---`;
 
-    // Боргирии файл
+    const blob = new Blob([fileContent], {
+      type: "text/plain;charset=utf-8",
+    });
+
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+
+    a.href = url;
+    a.download = `${siteName.toLowerCase()}_recovery_code_${tempUsername}.txt`;
+
+    document.body.appendChild(a);
+    a.click();
+
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
+  // Handle close popup and redirect to login
+  const handleClosePopup = () => {
+    // 1. FIRST trigger download (must be direct user action)
     downloadRecoveryFile();
-    
-    // Пас аз боргирӣ ба саҳифаи логин равона шавед
-    setTimeout(() => {
-      setShowRecoveryPopup(false);
-      navigate('/login');
-    }, 500);
+
+    // 2. THEN update UI immediately (no delay)
+    setShowRecoveryPopup(false);
+
+    // 3. Navigate
+    navigate("/login");
   };
 
   // Handle copy recovery code
