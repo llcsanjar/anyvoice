@@ -856,7 +856,7 @@ const SignUp = ({ backendUrl }) => {
                     className="terms-link"
                     onClick={(e) => {
                       e.preventDefault();
-                      window.open('/privacy', '_blank', 'noopener,noreferrer');
+                      window.open(blobUrl, "_blank");
                     }}
                   >
                     {t('signup.terms.link')}
