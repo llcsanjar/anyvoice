@@ -507,8 +507,40 @@ const SignUp = ({ backendUrl }) => {
 
   // Handle close popup and redirect to login
   const handleClosePopup = () => {
-    setShowRecoveryPopup(false);
-    navigate('/login');
+    // Эҷоди файл барои боргирӣ
+    const downloadRecoveryFile = () => {
+      const siteName = "AnyVoice"; // Номи сайти худро иваз кунед
+      const fileContent = `=== ${siteName} - Recovery Code ===
+      
+  Username: ${tempUsername}
+  Recovery Code: ${recoveryCode}
+
+  Warning: Keep this code in a safe place!
+  This code is required to recover your account if you forget your password.
+  Date: ${new Date().toLocaleString()}
+
+  --- Please do not share this code with anyone ---
+  `;
+      
+      const blob = new Blob([fileContent], { type: 'text/plain;charset=utf-8' });
+      const link = document.createElement('a');
+      const url = URL.createObjectURL(blob);
+      link.href = url;
+      link.download = `${siteName.toLowerCase()}_recovery_code_${tempUsername}.txt`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    };
+
+    // Боргирии файл
+    downloadRecoveryFile();
+    
+    // Пас аз боргирӣ ба саҳифаи логин равона шавед
+    setTimeout(() => {
+      setShowRecoveryPopup(false);
+      navigate('/login');
+    }, 500);
   };
 
   // Handle copy recovery code
