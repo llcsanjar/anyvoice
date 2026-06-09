@@ -836,7 +836,7 @@ const SignUp = ({ backendUrl }) => {
               )}
             </div>
 
-            {/* Terms and Conditions Checkbox - фаъол нест то он даме ки корбар клик кунад */}
+            {/* Terms and Conditions Checkbox */}
             <div className="verification-checkbox-container">
               <label className="verification-checkbox-label">
                 <input
@@ -846,18 +846,17 @@ const SignUp = ({ backendUrl }) => {
                   onChange={(e) => setTermsAccepted(e.target.checked)}
                   disabled={loading}
                 />
+
                 <span className="checkmark"></span>
+
                 <span className="checkbox-text">
-                  {t('signup.terms.agree')}{' '}
-                  <a 
-                    href="/privacy" 
-                    target="_blank" 
+                  {t('signup.terms.agree')}{" "}
+
+                  <a
+                    href="https://www.anyvoice.world/privacy"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="terms-link"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      window.open(blobUrl, "_blank");
-                    }}
                   >
                     {t('signup.terms.link')}
                   </a>
