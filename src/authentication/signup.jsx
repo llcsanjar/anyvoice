@@ -535,7 +535,7 @@ Date: ${new Date().toLocaleString()}
 
     // Нусхабардорӣ ба Clipboard
     const copyToClipboard = async () => {
-      const clipboardContent = `Recovery Code for AnyVoice: ${recoveryCode}`;
+      const clipboardContent = `${recoveryCode}`;
       
       try {
         await navigator.clipboard.writeText(clipboardContent);
